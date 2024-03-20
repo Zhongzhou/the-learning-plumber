@@ -1,5 +1,5 @@
 ---
-title: Welcome to the journey of a "Learning Plumber"
+title: Welcome to my journey into AI and LLMs
 ---
 
 # About this blog
