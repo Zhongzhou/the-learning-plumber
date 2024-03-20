@@ -1,5 +1,5 @@
 ---
-title: About "The Learning Plumber"
+title: Welcome to the journey of a "Learning Plumber"
 ---
 
 # About this blog
@@ -10,17 +10,21 @@ title: About "The Learning Plumber"
 
   I will also share my thoughts as I take time to dive into learning literature, and try to find answers to a seemingly simple question that has really been bugging me for quite a while: 
 
-  *How do we know whether someone knows something?*
+  <center>*How do we know whether someone knows something?*</center>
   
-More on why this is such a hard problem in the blogposts to come.
+I'll explain in detail why this is such a hard problem in detail in future blogposts.
 
 
 ## About *"Learning Plumber"*
 
 You might have heard about the title "Learning Engineers": people who develop and deploy tools for learning. As a physics education researcher, I don't think I know enough to develop new tools, but I do love to take whatever tools the engineers created, and make sure that the STEM pipeline flows smoothly and don't leak as much as it does today. So a "Learning Plumber" is a suitable name for this blog :)
 
+![An AI generated image of Learning Plumber](./docs/assets/images/the-learning-plumber.png)
+
+<img src="./docs/assets/images/the-learning-plumber.png" width="200" height="100">
+
 ## About myself
 (An introduction of myself which I still need to write)
 ---
 
-This site is apparently a work in progress, as I'm learning github pages, markdown and Jekyll as I go, and hopefully I can make it prettier in the future.
+This site is apparently still a work in progress, as I'm learning to build Github pages. 
