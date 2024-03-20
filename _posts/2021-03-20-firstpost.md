@@ -9,3 +9,5 @@ The first thing that I want to do is to setup this site, so that's what I'm doin
 
 Yet I'm already starting to dive into the world of LLMs, so I'll keep upding this post so that my initial learning expreience are not lost.
 
+This post will obviously be updated in the future.
+
