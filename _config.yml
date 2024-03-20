@@ -1,0 +1,23 @@
+# Site settings
+title: The Learning Plumber
+description: > # this means to ignore newlines until "baseurl:"
+  This is the blog site of Zhongzhou Chen for sharing his journey as a learning plumber, adventuring into the world 
+  of Generative AI and Large language models during his sabbatical year. I'll also share thoughts on learning sicnece
+  and STEM learning research, as well as my love for cooking and other fun stuff. 
+  The name \"learning plumber\" has two meanings. 1. I'm not as sophisticated as a learning engineer, but much more hands
+  on with real classroom instruction. 2. Part of my job and passion is to unclogg the STEM pipeline.
+#I don't think I need those settings for now, CoPilot worte those for me.
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://myawesomesite.com" # the base hostname & protocol for your site
+
+# Build settings
+theme: minima
+
+#I don't know what those are doing as of now.
+#markdown: kramdown
+#permalink: pretty
+
+# Author settings
+author:
+  name: JZhongzhou Chen
+  #email: blackeyemickey@gmail.com
