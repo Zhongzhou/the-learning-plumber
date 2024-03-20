@@ -15,7 +15,7 @@ More on why this is such a hard problem in the blogposts to come.
 
 (Apparently, this site is still a work in progress and I'll really start working on it later this year.)
 
-#About "Learning Plumber"
+# About "Learning Plumber"
 
 You might have heard about the title "Learning Engineers": people who develop and deploy tools for learning. As a physics education researcher, I don't think I know enough to develop new tools, but I do love to take whatever tools the engineers created, and make sure that the STEM pipeline flows smoothly and don't leak as much as it does today. So a "Learning Plumber" is a suitable name for this blog :)
 
