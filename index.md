@@ -25,6 +25,7 @@ alt = "an AI generated image of the learning plumber">
 
 ## About myself
 (An introduction of myself which I still need to write)
+
 ---
 
 This site is apparently still a work in progress, as I'm learning to build Github pages. 
