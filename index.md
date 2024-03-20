@@ -10,7 +10,7 @@ title: Welcome to the journey of a "Learning Plumber"
 
   I will also share my thoughts as I take time to dive into learning literature, and try to find answers to a seemingly simple question that has really been bugging me for quite a while: 
 
-  <center><em>How do we know whether someone knows something?<em></center>
+  <center><em>How do we know whether someone knows something?</em></center>
   
 I'll explain in detail why this is such a hard problem in detail in future blogposts.
 
