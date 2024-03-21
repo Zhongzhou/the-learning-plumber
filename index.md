@@ -35,7 +35,7 @@ This site is apparently still a work in progress, as I'm learning to build Githu
 ---
 
 <script src="https://utteranc.es/client.js"
-        repo="the-learning-plumber"
+        repo="zhongzhou/the-learning-plumber"
         issue-term="pathname"
         theme="boxy-light"
         crossorigin="anonymous"
