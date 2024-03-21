@@ -13,6 +13,7 @@ This post will obviously be updated in the future.
 
 
 ### Leave your comments below! 
+
 <script src="https://utteranc.es/client.js"
         repo="Zhongzhou/the-learning-plumber"
         issue-term="pathname"
@@ -20,4 +21,4 @@ This post will obviously be updated in the future.
         crossorigin="anonymous"
         async>
 </script>
-> Comments are enabled by [utterance](https://utteranc.es/)
+
