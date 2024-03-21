@@ -13,17 +13,17 @@ But first, I'm going to share some resources on how to build a github pages site
 
 ### Tutorials and resources for building a Github pages site
 
-[Github skills interactive course](https://github.com/skills/github-pages)
-Note: look at the discussion forum/issues report to figure out how to visit your own site at the end.
-[Github pages documentation](https://docs.github.com/en/pages)
-[Lost of useful things such as adding images](https://tomcam.github.io/least-github-pages/)
-[Markdown reference](https://www.markdownguide.org/basic-syntax/#links)
-[Adding a comments section in your posts](https://utteranc.es/)
+* [Github skills interactive course](https://github.com/skills/github-pages)\
+Note: look at the discussion forum/issues report of the course to figure out how to visit your created site.
+* [Github pages documentation](https://docs.github.com/en/pages)
+* [Lots of useful things such as adding images](https://tomcam.github.io/least-github-pages/)
+* [Markdown reference](https://www.markdownguide.org/basic-syntax/#links)
+* [Adding a comments section in your posts](https://utteranc.es/)
 
-(I searched for how to build a blog site on ChatGPT and Github site popped up as second best free option)
+(I searched for how to build a blog site on ChatGPT and Github site popped up as second best free option)\
 (You can't completely trust GPT in writing code such as your site configuration file)
 
-### Leave your comments below! 
+#### Please leave your comments below 
 
 ---
 
