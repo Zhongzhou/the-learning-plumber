@@ -38,6 +38,7 @@ This site is apparently still a work in progress, as I'm learning to build Githu
         repo="Zhongzhou/the-learning-plumber"
         issue-term="pathname"
         theme="boxy-light"
+        label = "blog-comment"
         crossorigin="anonymous"
         async>
 </script>

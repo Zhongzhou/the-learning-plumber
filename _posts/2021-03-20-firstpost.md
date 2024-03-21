@@ -32,6 +32,7 @@ Note: look at the discussion forum/issues report of the course to figure out how
         issue-term="pathname"
         theme="boxy-light"
         crossorigin="anonymous"
+        label = "blog-comment"
         async>
 </script>
 

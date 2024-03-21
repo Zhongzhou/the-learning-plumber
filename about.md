@@ -18,6 +18,7 @@ This is something that I have worked on in the past, and this is a test of wheth
         repo="Zhongzhou/the-learning-plumber"
         issue-term="pathname"
         theme="boxy-light"
+        label = "blog-comment"
         crossorigin="anonymous"
         async>
 </script>
