@@ -11,3 +11,10 @@ Yet I'm already starting to dive into the world of LLMs, so I'll keep upding thi
 
 This post will obviously be updated in the future.
 
+<script src="https://utteranc.es/client.js"
+        repo="the-learning-plumber"
+        issue-term="pathname"
+        theme="boxy-light"
+        crossorigin="anonymous"
+        async>
+</script>
