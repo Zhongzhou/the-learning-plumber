@@ -30,3 +30,13 @@ alt = "an AI generated image of the learning plumber">
 ---
 
 This site is apparently still a work in progress, as I'm learning to build Github pages. 
+
+---
+
+<script src="https://utteranc.es/client.js"
+        repo="[ENTER REPO HERE]"
+        issue-term="pathname"
+        theme="boxy-light"
+        crossorigin="anonymous"
+        async>
+</script>
