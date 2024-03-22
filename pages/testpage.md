@@ -1,10 +1,10 @@
-<header>
+---
+tags: [tag1, tag2, tag3]
+---
 
 # Test
 
 What if the page doesn't have a title?
-
-</header>
 
 
 I'm testing if I can create page without it showing up on the navigation banner.
