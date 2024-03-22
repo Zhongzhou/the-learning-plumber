@@ -1,5 +1,5 @@
 ---
-title: About
+title: About me
 ---
 
 # About the learning plumber himself
