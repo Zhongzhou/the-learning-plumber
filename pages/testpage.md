@@ -1,13 +1,8 @@
----
-title: Test
----
-
 <header>
 
-# Header
+# Test
 
-This is a header section which I'm not sure how it will be rendered.
-
+What is the page doesn't have a title?
 </header>
 
 
