@@ -33,7 +33,7 @@ More info about the author can be found on [this page](./about.md)
 This site is apparently still a work in progress, as I'm learning to build Github pages as we go. Let me know your thoughts by leaving your comments below!
 
 ---
-
+<!--
 <script src="https://utteranc.es/client.js"
         repo="Zhongzhou/the-learning-plumber"
         issue-term="pathname"
@@ -42,3 +42,4 @@ This site is apparently still a work in progress, as I'm learning to build Githu
         crossorigin="anonymous"
         async>
 </script>
+-->
