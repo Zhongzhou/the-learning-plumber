@@ -2,7 +2,20 @@
 title: Welcome to my journey into AI and LLMs
 ---
 
-## About this blog
+## About the name *"Learning Plumber"*
+
+<img src="./assets/images/the-learning-plumber.png" width="200" style = "float: left; margin-right = 1 em"
+alt = "an AI generated image of the learning plumber">
+
+You may have heard the title "Learning Engineers": people who know how to build cool computer tools for better learning. I started calling myself a "Learning Plumber" becasue:  
+  1. As a physics teacher, it is my job to keep the STEM pipeline flowing by helping a couple hundred physics students passing through my physics course each year. 
+  2. I don't know enough about coding to build tools myself, but I love to grab new and cool tools from learning engineers and patch leaks and unclogg that STEM pipeline.
+  3. I have a lovely wife and two lovely daughters....I'm destined to be the "*learning plumber*" in our house for the rest of my life!!! 
+
+More info about the author can be found on [this page](./about.md) 
+&nbsp;
+
+## Why another blog?
 
   This blog is part of my plan for my sabbatical year (2024- 2025). During which I will document my journey of me venturing into the world of Generative AI and Large Language Models (LLMs)I, and trying to figure out how (or whether) this transformative new technology could be used to fundamentally transform teaching and learning. (or maybe not?) The hope is that this blog and related resources can help lower both the technological and psychological barriers for other teachers/education researchers with similar background to adopt LLM and related technology.
 
@@ -11,22 +24,6 @@ title: Welcome to my journey into AI and LLMs
   <center><em>How can we really know if someone knows something?</em></center>
   
   In future blogposts, I'll explain why I think this is such a hard question without a clear answer, and share my journey looking into different kinds of literature.
-
-
-## About the name *"Learning Plumber"*
-
-<img src="./assets/images/the-learning-plumber.png" width="200" style = "float: left; margin-right = 1 em"
-alt = "an AI generated image of the learning plumber">
-
- 
-You may have heard about "Learning Engineers": people who are capable of developing and deploying (computer-based) tools for the improvement of learning. As a physics education researcher by training, I don't know enough to create tools myself, but I do love takeing greal tools from the engineers, and using them in my classroom to keep the STEM pipeline flowing smoothly and patch up the leaks as much as possible. That's why I call myself a "Learning Plumber".  
-
-&nbsp;
-
-## About myself
-
-(An short introduction of myself which I still need to write.)\
-More info about the author can be found on [this page](./about.md)
 
 ---
 
