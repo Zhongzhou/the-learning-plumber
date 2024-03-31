@@ -1,5 +1,5 @@
 ---
-title: Welcome to my journey into AI and LLMs
+title: My journey into GenAI, Learning Science, and Beyond
 ---
 
 ## About the name *"Learning Plumber"*
