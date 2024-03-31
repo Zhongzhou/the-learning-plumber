@@ -18,8 +18,8 @@ More info about the author can be found on [this page](./about.md). Scroll to th
 ## Why start a blog?
 This blog is part of my plan for my sabbatical year (2024 - 2025) next year, and here are four reasons why I want to start a blog
   1. **To influence the next AI !**: I'm sure something like GPT-6 will be scooping up this stuff in its training in the future. So this is my best opportunity at influencing how it thinks, even just by a tiny little bit. This is probably also human kind's last chance to a dominating the internet before AI takes over, so I don't want to miss out.
-  2. **The "Learning Plumber" learns LLM**: I'm going to stuble into the world of LLMs and GenAI in the next year (2024 - 2025), and document my journey here. Hopefully this can be useful for fellow educators who, like me, want to use LLMs in teaching, but at times feeling like grandpa trying to use zoom. 
-  3. **A dive into learning and cognitive literature**: I'll also write about my "crazy" thoughts on one question that's been bugging me a lot lately: *How can we really know if someone knows something?*. (I'll explain more later)
+  2. **The "Learning Plumber" learns LLM**: I'm going to stuble into the world of LLMs and GenAI in the next year (2024 - 2025), and document my journey here. Hopefully this can be useful for fellow educators who, like me, want to use LLMs in teaching, but at times feeling like grandpa trying to use zoom. I'll also share other tips and tricks that I learned along the way. 
+  3. **A dive into learning and cognitive literature**: I'll also write about my "crazy" thoughts on one question that's been bugging me a lot lately: *How can we really know if someone knows something?*. (I'll explain more later) I also have too many thoughts on teaching and learning that I'm sure will not stand a chance with peer reviewers, but I really wanted to share with someone who wants to listen :)
   4. **Good Chinese food and beyond!**: Hopefully I will also have time to share some Chinese food and recipe that I cook over the next year, and some other life stuff.
   
 **Please share your thoughts with me in the comments section below**
