@@ -7,7 +7,7 @@ date: 2024-03-20
 
 For some reason I couldn't stand WordPress, even though it is the most popular blog site in the world. I just could never figure out how to do anything in its user interface.
 
-<img src="../assets/images/github-pages-examples.png" width="100" style = "float: left; margin-right: 2em"
+<img src="../../../assets/images/github-pages-examples.png" width="100" style = "float: left; margin-right: 2em"
 alt = "Github Pages image from the github pages official site.">
 So guess what, I asked GPT what else can I do? (Seriously, I think somewhere in the world someone is already starting to worship GPT as a god. I feel like a shaman everytime I do "prompt engineering") And long and behold, it suggested github pages.
 
