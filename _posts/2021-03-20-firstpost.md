@@ -21,10 +21,13 @@ If you share my dicontent towards WordPress, then I strongly suggest that you gi
 * [Github skills interactive course](https://github.com/skills/github-pages)\
 You get a site setup in an hour just following this course, if you have just a little bit previous coding experience.
 Note: look at the discussion forum/issues report of the course to figure out how to visit your created site. That gave me a little hiccup.
-* [Markdown reference](https://www.markdownguide.org/basic-syntax/#links)\
+* [Markdown reference](https://www.markdownguide.org/basic-syntax)\
 How to do basic formatting on the pages. 
+* [Strike through in markdown](https://webapps.stackexchange.com/questions/14986/strikethrough-with-github-markdown) 
 * [Lots of useful things such as adding images](https://tomcam.github.io/least-github-pages/)\
 Basically just html hacks beyond what markdown has to offer.
+* [How to add images to a blog post](https://simulatine.github.io/100DaysOfCode/day-2-images-in-github-jekyll-blog-posts.html) \
+This is because Jekyll handles the blog posts differently from pages.
 * [Adding a comments section in your posts](https://utteranc.es/)\
 This is a must for starting a blog post!!
 * [Github pages documentation](https://docs.github.com/en/pages)
