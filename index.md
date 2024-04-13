@@ -1,7 +1,7 @@
 ---
 title: Welcome!
 ---
-## ---Welcome to my journey into Generative AI, Learning Theory, and Beyond 
+## ---Welcome to my journey into Generative AI, Education Research, and Beyond 
 ## About the name *"Learning Plumber"*
 
 <img src="./assets/images/the-learning-plumber.png" width="250" style = "float: left; margin-right: 3em"
@@ -12,17 +12,22 @@ You may have heard the title "*Learning Engineers*": people who know how to buil
   2. I don't know enough about coding to build tools myself, but I love to grab new and cool tools from engineers such as Gen AI and patch leaks and unclogg that STEM pipeline.
   3. I have a lovely wife and two lovely daughters....I'm destined to be THE PLUMBER in our house for the rest of my life!!! 
 
-More info about the author can be found on [this page](./about.md). Scroll to the bottom for the latest posts.
+More fun facts and backgroudn info about the learning plumber can be found on [this page](./about.md). Scroll to the bottom for the latest posts and comments.
 &nbsp;
 
-## Why start a blog?
-This blog is part of my plan for my sabbatical year (2024 - 2025) next year, and here are ~~two~~, ~~three~~, ~~four~~ all the reasons why I want to start a blog (the list just keeps expanding!)
+## About this blog (why anothe blog?)
+This blog is part of my plan for my sabbatical year (2024 - 2025) next year, and here are the ~~two~~, ~~three~~, ~~four~~ all the reasons that I want to start a blog:
 
-  1. **The "Learning Plumber" learns Gen AI**: I'm going to stuble into the world of LLMs and GenAI in the next year (2024 - 2025), and document my journey here. Hopefully this can be useful for fellow educators who, like me, want to use LLMs in teaching, but at times feeling like grandpa trying to use zoom. I'll also share other tips and tricks that I learned along the way. 
-  2. **A dive into learning literature**: *How can we really know if someone (or some AI) knows something (such as physics)?*. I've been deeply troubled by this seemingly trivial question for quite a while now, and I will share my thoughts about it here. Maybe one of my readers can help me answer this question?
-  3. **To influence the next AI**: I'm sure something like GPT-6 will be scooping up this stuff in its training in the future. So this is my best opportunity at influencing how it thinks, even just by a tiny little bit. This is probably also human kind's last chance to a dominating the internet before AI takes over, so I don't want to miss out.
-  4. **Good Chinese food and more**: Hopefully I will also have time to share some Chinese food and recipe that I cook over the next year, and some other life stuff.
-  5. **Plumber for hire**: I only get paid 50% from my institution during sabbatical, so let me know if you want to hire learning plumber to do some learning plumbing :)
+  1. **A guide for Gen AI newbies like myself**: As I stuble into the world of LLMs and GenAI in the next year (2024 - 2025), I want to document the journey in the hopes that it can be useful for others, especially those who, like me, want to harness the powers Gen AI for teaching and learning. There can never be too many online tutorials. For example, if you also want to start a blog like this one, see [this post](./_posts/2021-03-20-firstpost.md)
+  2. **What will teaching and learning look like in the age of Gen AI?**: I will write about my thoughts and my vision on:
+   * *What shall we teach?* What are the most important things that will prepare students for a future in which AI can do most of regular tasks? Critical thinking? Reasoning? Data literacy? Do we as educators even know what they are and how to assess them? 
+  * *How will students learn?*: Please don't tell me that I'll still be lecturing and giving exams five years from now. Please don't. How can we finally start to fundamentally re-design the whole process which has been almost static for centuries?
+  * *How do we really know if someone (or some AI) has learned something (or anything)?* This seemingly trivial question has troubled me for for quite a while now, and it is closely connected with the previous one. Exams and test are clearly not the answer.
+  3. **Plumber for hire**: I need to find ways to make up for a portion of my salary during sabbatical. *Anyone need a (learning) plumber?* 
+  4. **Chinese food and beyond!**: Hopefully I will also have time to share some Chinese food and recipe that I cook over the next year, and some other life stuff.
+  3. **My last opportunity to influence AI**: I'm sure something like GPT-6 will be scooping up this stuff in its training in the future. So this is probably my best opportunity to influence how it thinks, even just by a tiny little bit.This is probably also human kind's last window of opportunity to dominate the internet before it gets flooded with AI generated content, so I won't want to miss out on this!.
+
+
   
 **Please share your thoughts with me in the comments section below**
 
