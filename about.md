@@ -10,7 +10,8 @@ title: About me
 2. **His Research**: Chen started to do [computational biophysics](https://linkinghub.elsevier.com/retrieve/pii/S0006349508702005) as a PhD student. He soon got tired of coding before a screen all day and switched to physics education because it has more connection with human. As a physics education researcher, Chen is highly focused on [educational data mining](https://files.eric.ed.gov/fulltext/ED593227.pdf), learning analytics, [online and blended learning](./pages/testpage.md), and recently prompt engineering and LLMs.
     * He now loves coding before a screen all day analyzing student behavior from data. Inconsistency runs in his family it seems.
 
-3. **His Education**:
+3. **His Education**: (to be added)
+
 
 ----
 
