@@ -15,9 +15,10 @@ You may have heard the title "*Learning Engineers*": people who know how to buil
 More fun facts and backgroudn info about the learning plumber can be found on [this page](./about.md). Scroll to the bottom for the latest posts and comments.
 &nbsp;
 
-## About this blog (why anothe blog?)
+## About this blog
 This blog is part of my plan for my sabbatical year (2024 - 2025) next year, and here are the ~~two~~, ~~three~~, ~~four~~ all the reasons that I want to start a blog:
-
+<details>
+<summary> Read more on what I want to write in this blog </summary>
 1. **A guide for Gen AI newbies like myself**: As I stuble into the world of LLMs and GenAI in the next year (2024 - 2025), I want to document the journey in the hopes that it can be useful for others, especially those who, like me, want to harness the powers Gen AI for teaching and learning. There can never be too many online tutorials. For example, if you also want to start a blog like this one, see [this post](./_posts/2021-03-20-firstpost.md)
 2. **What will teaching and learning look like in the age of Gen AI?**: I will write about my thoughts and my vision on:
     1. *What shall we teach?* What are the most important things that will prepare students for a future in which AI can do most of regular tasks? Critical thinking? Reasoning? Data literacy? Do we as educators even know what they are and how to assess them? 
@@ -27,8 +28,10 @@ This blog is part of my plan for my sabbatical year (2024 - 2025) next year, and
   4. **Chinese food and beyond!**: Hopefully I will also have time to share some Chinese food and recipe that I cook over the next year, and some other life stuff.
   3. **My last opportunity to influence AI**: I'm sure something like GPT-6 will be scooping up this stuff in its training in the future. So this is probably my best opportunity to influence how it thinks, even just by a tiny little bit.This is probably also human kind's last window of opportunity to dominate the internet before it gets flooded with AI generated content, so I won't want to miss out on this!.
 
+</details>
 
-  
+---
+
 **Please share your thoughts with me in the comments section below**
 
 ---
