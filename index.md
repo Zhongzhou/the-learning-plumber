@@ -19,11 +19,13 @@ More fun facts and background info about the learning plumber can be found on [t
 
 ## About this blog
 This blog is part of my plan for my sabbatical year (2024 - 2025), and I plan to write about three things:
-1. **Learning about GenAI**: How I learn to use LLMs for teaching and learning [See a list of things here](./_posts/2024-04-13-LLM.md)
+1. **Learning to use GenAI**: How I learn to use LLMs for teaching and learning [See a list of things here](./_posts/2024-04-13-LLM.md)
 
-3. **How do we measure learning with GenAI?**: What is "understanding" and how can we reliably and conveniently measure it in this era of AI? \[Link to summary page coming soon\]
+2. **Re-desining learning with GenAI?**:  Lecture, Exam, and Tutors, none of the three should exist in the future IMHO. \[Link to summary page coming soon\]
 
-2. **Transforming teaching and learning with GenAI?**:  GenAI re-design teaching and learning, rather than patching up the existing system \[Link to summary page coming soon\]
+3. **How do we measure learning with GenAI?**: What is "understanding" and how can we reliably, accurately and frequently measure it in this era of AI? \[Link to summary page coming soon\]
+
+
 
 **Scroll to the bottom of the page to see new posts**
 
