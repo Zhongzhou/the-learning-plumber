@@ -16,12 +16,12 @@ Here' the prompt I gave GPT-4o for the title image:
 
 This result is this image:
 
-<img src="../assets/images/the-learning-plumber.webp" width="250" 
+<img src="../../../assets/images/the-learning-plumber.webp" width="250" 
 alt = "an AI generated image of the learning plumber">
 
 This is quite a bit improvement over this older version which I simply told it to "genrate an image for a blog named "the Learning Plumber".".
 
-<img src="../assets/images/the-learning-plumber.png" width="250"
+<img src="../../../assets/images/the-learning-plumber.png" width="250"
 alt = "an AI generated image of the learning plumber">
 
 However, none of the letters/words on this image makes any sense. This is a very obvious drawback of LLM generated images: a mix of image and non-image objects (such as text). Image generator should be couples with text/symbol generators, and I think it would be possible to train an LLM to place text on appropriate locations so that the output best represents the intended visual effect. 
