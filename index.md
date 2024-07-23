@@ -2,10 +2,6 @@
 title: Welcome!
 ---
 #### ---Welcome to my journey into Generative AI, STEM Education, and Beyond 
-
-
-## [What is a "Learning Plumber"?](./pages/whylearningplumber.md)
-
 <!--
 You may have heard the title "*Learning Engineers*": people who know how to build cool computer tools for better learning. I started calling myself a "Learning Plumber" becasue:  
   1. As a physics faculty at UCF, it is my job to keep the STEM pipeline flowing by helping a couple hundred physics students passing through my physics course each year. 
@@ -15,16 +11,16 @@ You may have heard the title "*Learning Engineers*": people who know how to buil
 More fun facts and background info about the learning plumber can be found on [this page](./about.md). 
 &nbsp;
 -->
-<img src="./assets/images/the-learning-plumber.webp" width="250" style = "float: left; margin-right: 3em"
+
+<img src="./assets/images/the-learning-plumber.webp" width="300" style = "float: left; margin-right: 3em"
 alt = "an AI generated image of the learning plumber">
- [(how I used chatGPT to create this image)](./_posts/2024-07-01-figureCreation.md)
+## [Why I call myself a "Learning Plumber"](./pages/whylearningplumber.md)
+ <!-- [(how I used chatGPT to create this image)](./_posts/2024-07-01-figureCreation.md) -->
 
 ## About this blog
 This blog is part of my plan for my sabbatical year (2024 - 2025), during which I plan to write about three things:
 1. **Learning to use GenAI**: [Cool things I learn about LLMs and GenAI](./_posts/2024-04-13-LLM.md)
-
 2. **Re-thinking teaching and learning with GenAI?**: Will lectures and exams even be necessary in the future?\[Link to summary page coming soon\]
-
 3. **How do we measure understanding with GenAI?**: What is "understanding"? Is it just  \[Link to summary page coming soon\]
 
 
