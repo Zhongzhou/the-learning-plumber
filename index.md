@@ -1,12 +1,12 @@
 ---
 title: Welcome!
 ---
-### ---Welcome to my journey into Generative AI, Education Research, and Beyond 
-#### About the name *"Learning Plumber"*
+#### ---Welcome to my journey into Generative AI, STEM Education, and Beyond 
 
-<img src="./assets/images/the-learning-plumber.webp" width="250" style = "float: left; margin-right: 3em"
-alt = "an AI generated image of the learning plumber">
 
+## [What is a "Learning Plumber"?](./pages/whylearningplumber.md)
+
+<!--
 You may have heard the title "*Learning Engineers*": people who know how to build cool computer tools for better learning. I started calling myself a "Learning Plumber" becasue:  
   1. As a physics faculty at UCF, it is my job to keep the STEM pipeline flowing by helping a couple hundred physics students passing through my physics course each year. 
   2. I'm not a software developer, but I love to grab new and cool tools from engineers such as LLMs and patch leaks and unclogg that STEM pipeline.
@@ -14,23 +14,25 @@ You may have heard the title "*Learning Engineers*": people who know how to buil
 
 More fun facts and background info about the learning plumber can be found on [this page](./about.md). 
 &nbsp;
-
-[How I used GPT to created this image](./_posts/2024-07-01-figureCreation.md)
+-->
+<img src="./assets/images/the-learning-plumber.webp" width="250" style = "float: left; margin-right: 3em"
+alt = "an AI generated image of the learning plumber">
+ [(how I used chatGPT to create this image)](./_posts/2024-07-01-figureCreation.md)
 
 ## About this blog
-This blog is part of my plan for my sabbatical year (2024 - 2025), and I plan to write about three things:
-1. **Learning to use GenAI**: How I learn to use LLMs for teaching and learning [See a list of things here](./_posts/2024-04-13-LLM.md)
+This blog is part of my plan for my sabbatical year (2024 - 2025), during which I plan to write about three things:
+1. **Learning to use GenAI**: [Cool things I learn about LLMs and GenAI](./_posts/2024-04-13-LLM.md)
 
-2. **Re-desining learning with GenAI?**:  Lecture, Exam, and Tutors, none of the three should exist in the future IMHO. \[Link to summary page coming soon\]
+2. **Re-thinking teaching and learning with GenAI?**: Will lectures and exams even be necessary in the future?\[Link to summary page coming soon\]
 
-3. **How do we measure learning with GenAI?**: What is "understanding" and how can we reliably, accurately and frequently measure it in this era of AI? \[Link to summary page coming soon\]
+3. **How do we measure understanding with GenAI?**: What is "understanding"? Is it just  \[Link to summary page coming soon\]
 
 
 
-**Scroll to the bottom of the page to see new posts**
+<!-- **Scroll to the bottom of the page to see new posts** -->
 
 <details>
-<summary><b>Click here for more reasons to start a blog</b></summary>
+<summary><b>Click here for more reasons for starting a blog</b></summary>
 
 1. **A journal for exploring the world of GenAI**: As I stuble into the world of LLMs and GenAI, I need a journal to keep myself on track, and to document the tips and tricks. Hopefully someone will find it useful. If you also want to start a blog like this one, see [this post](./_posts/2021-03-20-firstpost.md)
 
