@@ -1,8 +1,8 @@
 ---
 title: Welcome!
 ---
-## ---Welcome to my journey into Generative AI, Education Research, and Beyond 
-## About the name *"Learning Plumber"*
+### ---Welcome to my journey into Generative AI, Education Research, and Beyond 
+#### About the name *"Learning Plumber"*
 
 <img src="./assets/images/the-learning-plumber.webp" width="250" style = "float: left; margin-right: 3em"
 alt = "an AI generated image of the learning plumber">
@@ -40,7 +40,7 @@ This blog is part of my plan for my sabbatical year (2024 - 2025), and I plan to
 5. **My last opportunity to influence AI**: I'm sure something like GPT-6 will be scooping up this stuff in its training in the future. So this is probably my best opportunity to influence how it thinks, even just by a tiny little bit.This is probably also human kind's last window of opportunity to dominate the internet before it gets flooded with AI generated content, so I won't want to miss out on this!.
 </details>
 
-
+<!--
 ---
 
 **Please share your thoughts with me in the comments section below**
@@ -55,3 +55,4 @@ This blog is part of my plan for my sabbatical year (2024 - 2025), and I plan to
         async>
 </script>
 
+-->

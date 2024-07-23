@@ -3,7 +3,7 @@ title: "Creating the Learning Plumber image using GPT-4o"
 date: 2024-07-01
 ---
 
-Many people still don't realize how detailed the prompt needs to be for GPT to generate good quality images. 
+I recently realized how detailed the prompt needs to be for GPT to generate good quality images. 
 
 Here' the prompt I gave GPT-4o for the title image:
 
@@ -26,3 +26,12 @@ alt = "an AI generated image of the learning plumber">
 
 However, none of the letters/words on this image makes any sense. This is a very obvious drawback of LLM generated images: a mix of image and non-image objects (such as text). Image generator should be couples with text/symbol generators, and I think it would be possible to train an LLM to place text on appropriate locations so that the output best represents the intended visual effect. 
 
+---
+<script src="https://utteranc.es/client.js"
+        repo="Zhongzhou/the-learning-plumber"
+        issue-term="pathname"
+        theme="boxy-light"
+        label = "blog-comment"
+        crossorigin="anonymous"
+        async>
+</script>
