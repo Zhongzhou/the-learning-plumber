@@ -12,7 +12,7 @@ More fun facts and background info about the learning plumber can be found on [t
 &nbsp;
 -->
 
-<img src="./assets/images/the-learning-plumber.webp" width="200" style = "float: left; margin-right: 3em"
+<img src="./assets/images/the-learning-plumber.webp" width="300" style = "float: left; margin-right: 3em"
 alt = "an AI generated image of the learning plumber">
 
 ## About this blog
