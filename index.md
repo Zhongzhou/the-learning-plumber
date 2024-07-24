@@ -12,23 +12,23 @@ More fun facts and background info about the learning plumber can be found on [t
 &nbsp;
 -->
 
-<img src="./assets/images/the-learning-plumber.webp" width="300" style = "float: left; margin-right: 3em"
+<img src="./assets/images/the-learning-plumber.webp" width="200" style = "float: left; margin-right: 3em"
 alt = "an AI generated image of the learning plumber">
+
 ## [Why I call myself a "Learning Plumber"](./pages/whylearningplumber.md)
  <!-- [(how I used chatGPT to create this image)](./_posts/2024-07-01-figureCreation.md) -->
 
 ## About this blog
 This blog is part of my plan for my sabbatical year (2024 - 2025), during which I plan to write about three things:
-1. **Learning to use GenAI**: [Cool things I learn about LLMs and GenAI](./_posts/2024-04-13-LLM.md)
-2. **Re-thinking teaching and learning with GenAI?**: Will lectures and exams even be necessary in the future?\[Link to summary page coming soon\]
-3. **How do we measure understanding with GenAI?**: What is "understanding"? Is it just  \[Link to summary page coming soon\]
-
+1. **Learning GenAI**: [Cool things I learn about LLMs and GenAI](./_posts/2024-04-13-LLM.md)
+2. **Re-thinking teaching and learning with GenAI?**: Will lectures and exams even be necessary in the future?
+3. **How do we measure understanding with GenAI?**: What is "understanding" and how do we measure that?
 
 
 <!-- **Scroll to the bottom of the page to see new posts** -->
 
 <details>
-<summary><b>Click here for more reasons for starting a blog</b></summary>
+<summary><b>Click here for more reasons to start a blog</b></summary>
 
 1. **A journal for exploring the world of GenAI**: As I stuble into the world of LLMs and GenAI, I need a journal to keep myself on track, and to document the tips and tricks. Hopefully someone will find it useful. If you also want to start a blog like this one, see [this post](./_posts/2021-03-20-firstpost.md)
 
