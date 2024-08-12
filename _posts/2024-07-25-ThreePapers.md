@@ -26,3 +26,14 @@ I like it the most because: Florida gets hit by 1+ hurricane every fall semester
 I also like it because this is the type of research that instead of asking *how can we use AI to do what we do*, it asks *how can we use AI to do things that we've never done before?*
 
 [Comparing student performance on a multi-attempt asynchronous assessment to a single-attempt synchronous assessment in introductory level physics](https://arxiv.org/abs/2407.15257)
+
+---
+
+<script src="https://utteranc.es/client.js"
+        repo="Zhongzhou/the-learning-plumber"
+        issue-term="pathname"
+        theme="boxy-light"
+        crossorigin="anonymous"
+        label = "blog-comment"
+        async>
+</script>

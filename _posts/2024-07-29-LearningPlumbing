@@ -5,6 +5,8 @@ date: 2024-07-25
 
 (---this is a "plumber" version of introduction to my latest paper about data informed learning engineeing: [https://doi.org/10.18608/jla.2024.8083](https://doi.org/10.18608/jla.2024.8083))
 
+# We don't do enough "plumbing" in learning
+
 I think teachers can learn something from plumbers. 
 
 You see, here' how a plumber would typically fix a leak:
@@ -14,23 +16,60 @@ You see, here' how a plumber would typically fix a leak:
 3. Open the valve again and see if it still leaks.
 4. If it does leak, start again from step 1. If it doesn't, proceed to charging the customer.
 
-That's called closed-loop plumbing:)
+That's called closed-loop plumbing (I admit to have invented that name...)
 
-Most of the time when we teach, we don't follow the same steps. What most teachers (including me), do most of the time, is this:
+Unfortunately, most of the time when we teach, we don't follow those steps. What most teachers (including myself), do most of the time, is this:
 
 1. Have a feeling about what is going on.
 2. Think of something to change and put it into the classroom
 3. Feel good about it and move on. (or put out a survey and report "most students like it/don't hate it")
 
-See the difference? Teachers never charge their customers after the fix! 
+See the difference? Teachers never charge their customers after the fix!!
 
-No, no, I'm just kidding (or am I really?). My point is, we rarely follow a closed-loop engineering approach in doing learning engineering, as pointed out much more systematically and elegantly by many others such as [Motz et al.](https://doi.org/10.18608/jla.2023.7913), and by [Rose et al.](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.12858). 
+No, no, just kidding (or am I really?). My point is, we rarely follow a closed-loop engineering approach in doing learning engineering, as pointed out much more systematically and elegantly by many others such as [Motz et al.](https://doi.org/10.18608/jla.2023.7913), and [Rose et al.](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.12858).
 
 Now to be fair, as I said in the introduction of this paper, the teacher's job is much harder than that of a blumber because:
 
-1. Plumbers can open up the walls and see if a pipe is leaking. Teachers can't open up students' brains and see what's going on there (although sometimes you really wish you could!)
+1. Plumbers can open up the walls and see if a pipe is leaking. Teachers obviously can't open up students' brains and see what's going on there (although sometimes you really wish you could!)
 
-2. When a plumber turns on the valve again, he can be perfectly sure that the water coming through is exactly the same as the water before. For teachers, students in the 10 am section may behave quite differently from students in the 8 am section! So we need to find some ways to figure out whether what we are seeing is not due to students have, for example, two more hours of sleeep.
+2. A plumber can turn off the valve at any time and add a fix to it. Teachers on the other hand, must "fix the plane while flying it", and add the fixes between semesters.
 
-So in this paper, we tried to do some plumbing in classrooms with students, despite the long and formal title [How Does a Data-Informed Deliberate Change in Learning Design Impact Students’ Self-Regulated Learning Tactics?](https://doi.org/10.18608/jla.2024.8083)
+2. When a plumber turns on the valve again, he can be perfectly sure that the water coming through is exactly the same as the water before. For teachers, students in the 10 am section may behave quite differently from students in the 8 am section! So we need to find some ways to figure out whether what we are seeing is not due to students have, for example, two more hours of sleep.
 
+
+This paper is basically about how we try to overcome those challenges, and do some "learning plumbing" in real classrooms, despite the long and formal title [How Does a Data-Informed Deliberate Change in Learning Design Impact Students’ Self-Regulated Learning Tactics?](https://doi.org/10.18608/jla.2024.8083)), and all the statistical/machine learning jargon.
+
+# How we did the "learning plumbing"
+
+## Step 1: Find the leak
+
+In the old pipe system, we require students to try a problem before they can learn how to solve it. This has several benefits, for example, some students may find out that they already knew how to do this, others might realize that they really don't know how to do that. Plus, researchers get some good pre-test data. However, when we started looking into student behavior, we found that many students simply just did a quick guess on this required first attempt. In fact, the first attempt may have prompted them to either guess, or look for problem answers online. It actually took years of work to build the pipes and the "moist detectors" to detect the "leaks", which you can look at this earlier [web presentation](https://sway.cloud.microsoft/RuaLGkOLVZw8UyUK?ref=Link). It is actually a Microsoft Sway, a pretty neat idea but didn't get too much attention.
+
+## Step 2: Design the patch
+
+The fix seems quite obvious, rather than forcing students to "waste" an attempt (quoting some angry student course evaluation), we just trust their own judgement, and let them choose whether they want to try the problem (feeling confident), or want to first learn how to solve them (feeling not confident). Of course, we fisrt show them a preview of the problem they are about to solve and ask: Do you think you can solve this?
+
+## Step 3: Putting in the patch (and avoid a Randomized Control Trial!)
+
+Remember how students can be very different from one section to the other? To get around this headaching problem, we decided to only deploy our "patch" in one section of the pipe, while leaving the other sections still "leaking", and we compared the "leaking" situation to students from earlier years, so that we know how different or similar students are behaving with or without the patch that we put in place. If you read section 2.2 of the paper, you'll get a much better idea of how the study is setup, and how the comparisons are being done.
+
+The key benefit of this setup is that you don't need to separate your class into two halves, and give only half of the students your carefully designed, hopefully helpful intervention! Randomized controll trial is something that researchers absolutely love and teachers absolutely hate, and being both a researcher and a teacher at the same time, it drives me into schizophrenia. This setup gives me quality information without the worry that half of the students are going to hate me (they may end up all hating me if I screw up my design, but somehow that still feels better.)
+
+
+## Step 4: Measure how our patch has changed things.
+
+This gets really complicated statistical wise, which I won't go into here. Basically we created a math model of how students would have behaved had they be making their decisions randomly, and compared to what we actually measured. You are more than welcome to read the paper and see how we pulled off that stats trick. Hopefully in the future we can make the process more streamlined so that more people can use the methods.
+
+# How well did the "plumbing" work?
+
+Well, that's a good question.
+
+We did find that students are pretty good at determining if they should try the problem or not. In fact we believe that most students who would have failed the first attempt anyways tends to choose to study the materials before doing the problem, and a significant fraction of those who would have passed the first attempt still decided to take it before learning. (Thanks to the study setup and innovative analysis method that gave us the "would have" group.)
+
+We didn't completely eliminate guessing (that would have been too optimistic anyways), but we did see guessing or answer copying being reduced on multiple instances, so that is great.
+
+Did the students learn any better? Maybe. There are some signs of better/faster learning, but the signal is too weak to make a definite overall claim. At least we didn't make things worth!
+
+# Takeaway 
+
+Learning Engineering (or as I like to call it, "learning plumbing") is really hard!! But I'm so happy that I get to at least "close-the-loop" in this one case, even if the goal is just to demonstrate the feasibility of such an approach. Lots of groundwork still need to happen before many more teachers can engage in this kind of data-driven, closed-loop improvement of teaching and learning, but hopefully, this work can serve as one small step towards this grand goal!
