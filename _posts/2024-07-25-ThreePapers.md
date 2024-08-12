@@ -1,11 +1,11 @@
 ---
-title: "Quirky Summary of Three Recent Papers on GenAI"
+title: "Quick and Quirky Summary of Three Recent Papers on GenAI"
 date: 2024-07-25
 ---
 
 ## Paper 1: Students actually like AI generated Feedback!
 
-A very early and primitive attempt at prompt engineering GPT-3.5 to generate feedback for students on conceptual physics questions. Turns out, students actually like AI Generative feedback (if you don't tell them its AI). The reason might be that when faced with 100 student responses to grade, any human instructor will lose patience after the first 20, but AI just keeps writing....
+A very early and primitive attempt at prompt engineering GPT-3.5 to generate feedback for students on conceptual physics questions. Turns out, students actually like AI Generative feedback (if you don't tell them its AI). The reason might be that when faced with 100 student responses to grade, any human instructor will lose patience after the first 20, and start copying and pasting earlier answers. However, AI just keeps writing with all the patience in the world....
 
 [Exploring generative AI assisted feedback writing for students’ written responses to a physics conceptual question with prompt engineering and few-shot learning](https://journals.aps.org/prper/abstract/10.1103/PhysRevPhysEducRes.20.010152)
 
