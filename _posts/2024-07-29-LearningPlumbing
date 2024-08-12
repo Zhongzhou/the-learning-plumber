@@ -1,4 +1,36 @@
 ---
-title: "An example of "Learning Plumbing""
+title: "One example of "Learning Plumbing""
 date: 2024-07-25
 ---
+
+(---this is a "plumber" version of introduction to my latest paper about data informed learning engineeing: [https://doi.org/10.18608/jla.2024.8083](https://doi.org/10.18608/jla.2024.8083))
+
+I think teachers can learn something from plumbers. 
+
+You see, here' how a plumber would typically fix a leak:
+
+1. Find where the leak is
+2. Close the valve and put in a patch or a fix
+3. Open the valve again and see if it still leaks.
+4. If it does leak, start again from step 1. If it doesn't, proceed to charging the customer.
+
+That's called closed-loop plumbing:)
+
+Most of the time when we teach, we don't follow the same steps. What most teachers (including me), do most of the time, is this:
+
+1. Have a feeling about what is going on.
+2. Think of something to change and put it into the classroom
+3. Feel good about it and move on. (or put out a survey and report "most students like it/don't hate it")
+
+See the difference? Teachers never charge their customers after the fix! 
+
+No, no, I'm just kidding (or am I really?). My point is, we rarely follow a closed-loop engineering approach in doing learning engineering, as pointed out much more systematically and elegantly by many others such as [Motz et al.](https://doi.org/10.18608/jla.2023.7913), and by [Rose et al.](https://bera-journals.onlinelibrary.wiley.com/doi/10.1111/bjet.12858). 
+
+Now to be fair, as I said in the introduction of this paper, the teacher's job is much harder than that of a blumber because:
+
+1. Plumbers can open up the walls and see if a pipe is leaking. Teachers can't open up students' brains and see what's going on there (although sometimes you really wish you could!)
+
+2. When a plumber turns on the valve again, he can be perfectly sure that the water coming through is exactly the same as the water before. For teachers, students in the 10 am section may behave quite differently from students in the 8 am section! So we need to find some ways to figure out whether what we are seeing is not due to students have, for example, two more hours of sleeep.
+
+So in this paper, we tried to do some plumbing in classrooms with students, despite the long and formal title [How Does a Data-Informed Deliberate Change in Learning Design Impact Students’ Self-Regulated Learning Tactics?](https://doi.org/10.18608/jla.2024.8083)
+
