@@ -1,6 +1,6 @@
 ---
-title: "One example of "Learning Plumbing""
-date: 2024-07-25
+title: "An example of "Learning Plumbing""
+date: 2024-07-29
 ---
 
 (---this is a "plumber" version of introduction to my latest paper about data informed learning engineeing: [https://doi.org/10.18608/jla.2024.8083](https://doi.org/10.18608/jla.2024.8083))
@@ -70,6 +70,19 @@ We didn't completely eliminate guessing (that would have been too optimistic any
 
 Did the students learn any better? Maybe. There are some signs of better/faster learning, but the signal is too weak to make a definite overall claim. At least we didn't make things worth!
 
-# Takeaway 
+# Takeaways 
 
 Learning Engineering (or as I like to call it, "learning plumbing") is really hard!! But I'm so happy that I get to at least "close-the-loop" in this one case, even if the goal is just to demonstrate the feasibility of such an approach. Lots of groundwork still need to happen before many more teachers can engage in this kind of data-driven, closed-loop improvement of teaching and learning, but hopefully, this work can serve as one small step towards this grand goal!
+
+Let me know what you think in the comment section below!
+
+---
+
+<script src="https://utteranc.es/client.js"
+        repo="Zhongzhou/the-learning-plumber"
+        issue-term="pathname"
+        theme="boxy-light"
+        crossorigin="anonymous"
+        label = "blog-comment"
+        async>
+</script>
