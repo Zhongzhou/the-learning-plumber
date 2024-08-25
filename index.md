@@ -19,7 +19,7 @@ alt = "an AI generated image of the learning plumber">
 This blog is part of my plan for my sabbatical year (2024 - 2025), during which I plan to write about three things:
 1. **Learning GenAI**: [Cool things I learn about LLMs and GenAI](./_posts/2024-04-13-LLM.md)
 2. **Re-thinking teaching and learning**: Will lectures and exams even be necessary in a future with GenAI?
-3. **What is undertsanding?**: What is "understanding" and how do we measure that with GenAI?
+3. **What is undertsanding?**: [What is "understanding" and how do we measure that with GenAI?](./pages/Understanding.md)
 
 <details>
 <summary><b>More reasons to start a blog</b></summary>
