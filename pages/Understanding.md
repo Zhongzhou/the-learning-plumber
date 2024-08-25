@@ -1,4 +1,4 @@
-Posts related to GenAI, Understanding, and Measurements
+**Posts related to GenAI, Understanding, and Measurements**
 
 [**Is language separated from cognition?**](../_posts/2024-08-23-Language-Thought.md)
 
