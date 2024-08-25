@@ -1,6 +1,6 @@
 ---
 title: "Can LLMs actually understand anything? Sharing interesting papers about language and cognition (1)"
-date: 2024-07-29
+date: 2024-08-23
 ---
 
 The one benefit of doing a sabbatical is that I actually have time to sit down in a Starbucks and read papers. Like really read in a way that is actually enjoyable and thought provoking. I've been reading some really interesting papers which I would love to share.
