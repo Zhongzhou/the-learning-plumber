@@ -3,7 +3,7 @@ title: "Can LLMs actually understand anything? Sharing interesting papers about 
 date: 2024-08-23
 ---
 
-The one benefit of doing a sabbatical is that I actually have time to sit down in a Starbucks and read papers. Like really read in a way that is actually enjoyable and thought provoking. I've been reading some really interesting papers which I would love to share.
+The one benefit of doing a sabbatical is that I actually have time to sit down in a Starbucks and read papers. Like really read in a way that is actually enjoyable and thought provoking. I've been reading some really interesting papers which I would love to share. (Also see my next post on [LLM and understanding](./2024-08-24-LLM-Understanding.md))
 
 # Language is not Cognition: wait, waht? what me saying? You get it.
 
