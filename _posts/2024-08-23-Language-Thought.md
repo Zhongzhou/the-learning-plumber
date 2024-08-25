@@ -11,7 +11,7 @@ In this paper: [Language is primarily a tool for communication rather than thoug
 
 Language is not necessary for *ANY* type of cognition (other than comprehending language itself, of course). Cognitive functions such as logical reasoning are carried out in areas of the brain that is separate from (albeit adjacent to) the "language network" in the human brain. (Yes, language is processed via a network of connected areas in the brain, not just the famous Broca’s and Wernicke’s areas)
 
-Really? Nothing? None? That was my first reaction but then I realized how much difficulty I always have organizing my thoughts into proper words, and the idea seem much more believable.
+Really? Nothing? None? That was my first reaction but then I realized how much difficulty I always had organizing my thoughts into proper words, and the idea seem much more believable.(the section title is an example of this and contains an intentional spelling error.)
 
 The paper cites decades of research, especially neuro-imagine research to back this claim. Most of those are not too surprising, for example, language is not involved in math or logical reasoning. Larry Barsalou's [Grounded cognition](http://www.ncbi.nlm.nih.gov/pubmed/17705682) theory predicted that back in the early 2000. What is very surprising to me is that even computer code comprehension doesn't require the language area either!! 
 
