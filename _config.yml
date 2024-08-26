@@ -1,9 +1,9 @@
 # Site settings
 title: The Learning Plumber
 description: > # this means to ignore newlines until "baseurl:"
-  This is the blog site of Zhongzhou Chen, a college physics teacher and a physics education researher
-  who calls himself a "learning plumber" 
-#I don't think I need those settings for now, CoPilot worte those for me.
+  This is the blog site of Zhongzhou Chen, a university physics teacher and a physics education researcher
+  who calls himself "learning plumber".
+#I don't think I need those settings for now, CoPilot wrote those for me.
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://myawesomesite.com" # the base hostname & protocol for your site
 
