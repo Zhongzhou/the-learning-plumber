@@ -1,0 +1,26 @@
+---
+title: "The Junk Food Style Summary of a Very Healthy Paper on GenAI and Assessment"
+date: 2024-09-05
+---
+# The Junk Food Summary of a Healthy Paper
+Some papers are like a giant bowl of Quinoa salad with no dressing: you know it is really good for you but you just need a lot of self-discipline to finish it.
+
+Here is one such paper: Kaldaras, L., Akaeze, H. O., & Reckase, M. D. (2024). Developing valid assessments in the era of generative artificial intelligence. Frontiers in Education, 9, 1399377. [https://doi.org/10.3389/FEDUC.2024.1399377/BIBTEX]. It has an whole lot of great stuff, but, I have say that reading through it requires a couple cups of coffee to say the least.
+
+So I decided to create a junk food version summary of this paper: it will be much easier and more enjoyable to eat, and it at least has a little bit of veggie in it. 
+
+# The Key Message
+Suppose we want to know if someone knows how to make a burger. Traditionally, the tests contain multiple choice questions such as "Which of the following ingredients are included in a burger?". Now, with GenAI, we can ask the person: How do you make a burger? and use GenAI to grade it. Nice. But how do we know if those new GenAI based tests really reflect someone's ability to make a juicy burger? That is the question of test validity.
+
+## 
+
+
+---
+<script src="https://utteranc.es/client.js"
+        repo="Zhongzhou/the-learning-plumber"
+        issue-term="pathname"
+        theme="boxy-light"
+        crossorigin="anonymous"
+        label = "blog-comment"
+        async>
+</script>
