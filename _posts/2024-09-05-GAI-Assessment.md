@@ -1,5 +1,5 @@
 ---
-title: ":hamburger: Junk Food Summary of a Very Healthy Paper on GenAI and Assessment"
+title: "Junk Food Summary of a Very Healthy Paper on GenAI and Assessment"
 date: 2024-09-05
 ---
 # The Junk Food Summary of a Healthy Paper
@@ -78,11 +78,49 @@ Yes, it is much harder than the hardest boiled egg.
 ## Evidence based on test content: is it really about the burger?
 *"This type of evidence relates to analyzing the relationship between the test content and the construct it is intended to measure."*
 
-A burger test should be about burgers, so the question "how do you use fork and knife to eat food" has no content validity, unless the correct answer is "you don't". 
+A burger test should be about burgers, so the question "how do you use fork and knife to eat food" has limited content validity, unless the correct answer is "you don't". 
 
-A physics test should be about physics. Yet, I was going through all the back of chapter problems of a popular textbook recently and was struck in the head by a baseball problem. That problem is clearly assessing students' baseball terminology and familiarity with the baseball court!
+A physics test should be about physics. Yet, I was going through all the back of chapter problems of a popular textbook recently and was "struck in the head" by a baseball problem, which challenged my limited knowledge regarding baseball terminology more than anything else.
 
-(To be continued)
+The authors of the paper suggested two uses of GenAI in enhancing test content validity:
+
+1. it could help write test items or grading rubrics that aligns with existing standards or learning objective system.
+
+2. it could help with creating isomorphic problems based on a template problem (and maybe also valid new contexts)
+
+## Evidence based on the response process
+*"Validity evidence based on the response process refers to evaluating whether the test takers engage in the specific cognitive processes intended to be measured by the test.
+"*
+
+So say that we have a test of steak cooking. Are test takers actually cooking steak during the test, or are they trying to figure out how to start the stove? Also, do we video tape the cooking process during the process? If the test involves only tasting the , then some test takers might just order a take-out (engaged in a different cognitive process). 
+
+For example, on test of thermo dynamics, a problem may ask about the time it takes for a stove to heat up a piece of meat, given all the heat conduction parameters, the power of the stove, and the size of the steak. Yet a student who happens to work at OutBack maybe able to get a fairly close answer just from experience. That is lack of response process validity.
+
+It is fairly obvious what GAI can do to improve response process validity. GAI assisted grading is quickly moving assessments from evaluating the end product to evaluating the process, with natural language being the best representation of cognitive process humans can have.
+
+The authors also suggest that GAI may actually simulate possible student answers to problems for process validity, although I personally have some serious doubt regarding that suggestion.
+
+## Validity based on scoring process 
+
+Rating a burger based on actually eating it is a more valid scoring process compared to rating a burger based on watching an ad on youtube. If we can control for the level of hungriness during eating then it will be even more valid.
+
+The section of the paper mostly talks about how to make GAI-based grading more valid, by giving two pieces of suggestion:
+
+1. Give GAI a well designed and well explained rubric before asking it to grade. 
+2. Ask GAI to explain its own grading so humans can examine.
+
+I completely agree with the first one. If we have a GAI grading 101, that should be week 1 lesson 1. Never directly ask GAI to "just grade", since it will just make up grades.
+
+For the second one, the authors got the order wrong. From my experience, if you ask GAI to grade first and explain next, it will make up a grade first and make up a justification next. That is actually how LLMs work: it predicts later tokens based on existing tokens. That is quite different from how humans think and talk, which is to generate language and action based on some cognition. 
+
+So the correct suggestion should be: Ask GAI to first produce a grading reasoning, then assign the grade. 
+
+## Evidence based on internal structure
+
+## Evidence based on relation to other
+
+# Validity Generalization
+
 
 ---
 <script src="https://utteranc.es/client.js"
