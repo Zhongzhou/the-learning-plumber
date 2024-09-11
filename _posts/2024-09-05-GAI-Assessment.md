@@ -5,7 +5,8 @@ date: 2024-09-05
 # The Junk Food Summary of a Healthy Paper
 Some papers are like a giant bowl of Quinoa salad with no dressing: you know it is really good for you but you just need a lot of self-discipline to finish it.
 
-Here is one such paper: Kaldaras, L., Akaeze, H. O., & Reckase, M. D. (2024). Developing valid assessments in the era of generative artificial intelligence. Frontiers in Education, 9, 1399377. [https://doi.org/10.3389/FEDUC.2024.1399377/BIBTEX]. It has an whole lot of great stuff, but, I have say that reading through it requires a couple cups of coffee to say the least.
+
+Here is one such paper: [Kaldaras, L., Akaeze, H. O., & Reckase, M. D. (2024). Developing valid assessments in the era of generative artificial intelligence. Frontiers in Education, 9, 1399377.](https://doi.org/10.3389/FEDUC.2024.1399377/BIBTEX). It has a whole lot of great stuff, but, I have to say that reading through it requires a couple cups of coffee to say the least.
 
 So I decided to create a "junk food" version summary of this paper: it will be unhealthy and probably miss a LOT of the intellectual vitamins in the original salad bowl, but, hopefully it tastes better 😄
 
@@ -78,11 +79,70 @@ Yes, it is much harder than the hardest boiled egg.
 ## Evidence based on test content: is it really about the burger?
 *"This type of evidence relates to analyzing the relationship between the test content and the construct it is intended to measure."*
 
-A burger test should be about burgers, so the question "how do you use fork and knife to eat food" has no content validity, unless the correct answer is "you don't". 
 
-A physics test should be about physics. Yet, I was going through all the back of chapter problems of a popular textbook recently and was struck in the head by a baseball problem. That problem is clearly assessing students' baseball terminology and familiarity with the baseball court!
+A burger test should be about burgers, so the question "how do you use fork and knife to eat food" has limited content validity, unless the correct answer is "you don't". 
 
-(To be continued)
+A physics test should be about physics. Yet, I was going through all the back of chapter problems of a popular textbook recently and was "struck in the head" by a baseball problem, which challenged my limited knowledge regarding baseball terminology more than anything else.
+
+The authors of the paper suggested two uses of GenAI in enhancing test content validity:
+
+1. it could help write test items or grading rubrics that aligns with existing standards or learning objective system.
+
+2. it could help with creating isomorphic problems based on a template problem (and maybe also valid new contexts)
+
+## Evidence based on the response process
+*"Validity evidence based on the response process refers to evaluating whether the test takers engage in the specific cognitive processes intended to be measured by the test.
+"*
+
+So say that we have a test of steak cooking. Are test takers actually cooking steak during the test, or are they trying to figure out how to start the stove? Also, do we video tape the cooking process during the process? If the test involves only tasting the , then some test takers might just order a take-out (engaged in a different cognitive process). 
+
+For example, on test of thermo dynamics, a problem may ask about the time it takes for a stove to heat up a piece of meat, given all the heat conduction parameters, the power of the stove, and the size of the steak. Yet a student who happens to work at OutBack maybe able to get a fairly close answer just from experience. That is lack of response process validity.
+
+It is fairly obvious what GAI can do to improve response process validity. GAI assisted grading is quickly moving assessments from evaluating the end product to evaluating the process, with natural language being the best representation of cognitive process humans can have.
+
+The authors also suggest that GAI may actually simulate possible student answers to problems for process validity, although I personally have some serious doubt regarding that suggestion.
+
+## Validity based on scoring process 
+
+Rating a burger based on actually eating it is a more valid scoring process compared to rating a burger based on watching an ad on youtube. If we can control for the level of hungriness during eating then it will be even more valid.
+
+The section of the paper mostly talks about how to make GAI-based grading more valid, by giving two pieces of suggestion:
+
+1. Give GAI a well designed and well explained rubric before asking it to grade. 
+2. Ask GAI to explain its own grading so humans can examine.
+
+I completely agree with the first one. If we have a GAI grading 101, that should be week 1 lesson 1. Never directly ask GAI to "just grade", since it will just make up grades.
+
+For the second one, the authors got the order wrong. From my experience, if you ask GAI to grade first and explain next, it will make up a grade first and make up a justification next. That is actually how LLMs work: it predicts later tokens based on existing tokens. That is quite different from how humans think and talk, which is to generate language and action based on some cognition. 
+
+So the correct suggestion should be: Ask GAI to first produce a grading reasoning, then assign the grade. 
+
+## Evidence based on internal structure
+
+This type of evidence pertains specifically to a multi-item test. If the test is designed to measure for example a uni-dimensional construct, then it should behave in a uni-dimensional way, i.e., all problems should lie on a very organized difficulty hierarchy from easiest to hardest. If some problems are harder than average for some students but easier than average for other students, then the construct may not be a good hypothesis of the underlying knowledge structure. 
+
+Traditionally, determining the dimensionality of a test construct is a very difficult task that involves techniques such as principle component analysis or multi-dimensional IRT, etc. Now, with GAI and rubric based grading, it could be much easier to identify the dimensionalities of the assessments, since we can look into the reasoning provided by students, and do embedding + clustering on students' responses.
+
+I personally think that the "dimensionality" of a test is not something that will have a definite answer. How many different factors go into judging the quality of a burger? People write papers and books about quality of tomato or bacon, so the actual number of possible judgement criteria is impossibly large. We need to think about the level of coarse-graining that makes the dimensionality useful and practical for a test.
+
+## Evidence based on relation to other variables
+
+I must admit that I still don't have a good idea what "relation to other variables" actually mean. Reading through the entire section, the basic idea as it pertains to GAI grading of open-ended written response is quite straight-forward and important: Treating human grading as gold standard for judging the quality of GAI grading has its limitations. Humans can be biased in many ways in their grading, and their consistency can decays quickly over time. 
+
+But what should serve as the gold standard then? It seems like the best way of overcoming human bias and fatigue is to build an AI that…Oh, wait a minute….
+
+The authors suggest that one could have multiple diverse experts score the same set of student response, and use the consensus as "gold-standards", but then the process becomes extremely expensive. The problem is that consensus grading of one problem probably has very limited transferability to a different problem, and it is impossible to do a multi-expert consensus grading for every problem.
+
+# Validity Generalization
+
+Now that I have developed a perfectly valid test (and scoring system) for stake burgers. Will the test and scoring rubrics still be valid if I use it for chicken burger? What about fish? Veggie burger? When do we need to re-validate the system, and to what extent? Do we need to re-validate all five sources of evidence, or shall we prioritize some over others?
+
+Maybe we can design some mechanism/tool to detect or estimate the level of validity degrade as assessments are being modified, and recommend different levels of re-validation depending on the signal.
+
+# How did you like the burger?
+
+For anyone who read this far, thank you for reading and hope you find this junk food summary easier to read compared to the original paper. Hopefully I retained at least some of the good stuff from the original salad bowl. Let me know if you have any recommendations for other healthy papers that you would like a "junk food" version. 
+
 
 ---
 <script src="https://utteranc.es/client.js"
