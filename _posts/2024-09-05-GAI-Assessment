@@ -1,5 +1,5 @@
 ---
-title: ":hamburger: Junk Food Summary of a Very Healthy Paper on GenAI and Assessment"
+title: "Junk Food Summary of a Very Healthy Paper on GenAI and Assessment"
 date: 2024-09-05
 ---
 # The Junk Food Summary of a Healthy Paper
