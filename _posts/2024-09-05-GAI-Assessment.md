@@ -7,7 +7,7 @@ date: 2024-09-05
 # The Junk Food Summary of a Healthy Paper
 Some papers are like a giant bowl of Quinoa salad with no dressing: you know it is really good for you but you just need a lot of self-discipline to finish it.
 
-<img src="../assets/images/funk_food_2.webp" width="200" style = "float: left; margin-right: 2em"
+<img src="../../../assets/images/funk_food_2.webp" width="200" style = "float: left; margin-right: 2em"
 alt = "AI generated image of a junk food version summary of an academic paper">
 
 Here is one such paper: [Kaldaras, L., Akaeze, H. O., & Reckase, M. D. (2024). Developing valid assessments in the era of generative artificial intelligence. Frontiers in Education, 9, 1399377.](https://doi.org/10.3389/FEDUC.2024.1399377). It has a whole lot of great stuff, but, I have to say that reading through it requires a couple cups of coffee to say the least.
@@ -37,7 +37,7 @@ The more I think about the definition of a "construct", the less I think I under
 
 Whether a sandwich is a hamburger, a cheeseburger, or a bacon burger, is an objective existence that is not hypothetical, nor purely constructed (one can always question what counts as a piece of cheese, for example, but in most cases it is obvious.)
 
-<img src="../assets/images/junk_food.webp" width="200" style = "float: left; margin-right: 2em"
+<img src="../../../assets/images/junk_food.webp" width="200" style = "float: left; margin-right: 2em"
 alt = "AI generative image of a burger merged with an academic paper">
 
 "How would you like your burger cooked", refers to a "constructed" concept. Terms such as "medium rare" are constructed by humans, and no two restaurants can 100% agree on how rare is "medium rare". But this is still not a "construct", since the "cookedness" of a beef pattie is directly observable (or tastable) if you cut it open or bite into it.
@@ -84,7 +84,7 @@ Evidence sources outlined in the Standards for Educational and Psychological Tes
 
 Yes, it is much harder than the hardest boiled egg.
 
-<img src="../assets/images/junk_food_3.webp" width="200" style = "float: left; margin-right: 2em"
+<img src="../../../assets/images/junk_food_3.webp" width="200" style = "float: left; margin-right: 2em"
 alt = "AI generative image of a burger merged with an academic paper">
 
 ## Evidence based on test content: is it really about the burger?
