@@ -2,16 +2,21 @@
 title: "Junk Food Summary of a Very Healthy Paper on GenAI and Assessment"
 date: 2024-09-05
 ---
+
+
 # The Junk Food Summary of a Healthy Paper
 Some papers are like a giant bowl of Quinoa salad with no dressing: you know it is really good for you but you just need a lot of self-discipline to finish it.
 
+<img src="../assets/images/funk_food_2.webp" width="200" style = "float: left; margin-right: 2em"
+alt = "AI generated image of a junk food version summary of an academic paper">
 
 Here is one such paper: [Kaldaras, L., Akaeze, H. O., & Reckase, M. D. (2024). Developing valid assessments in the era of generative artificial intelligence. Frontiers in Education, 9, 1399377.](https://doi.org/10.3389/FEDUC.2024.1399377). It has a whole lot of great stuff, but, I have to say that reading through it requires a couple cups of coffee to say the least.
 
 So I decided to create a "junk food" version summary of this paper: it will be unhealthy and probably miss a LOT of the intellectual vitamins in the original salad bowl, but, hopefully it tastes better 😄
 
-# The Core Message
-Suppose we want to know if someone knows how to make a burger :hamburger:. Traditionally, the tests contain multiple choice questions such as "Which of the following ingredients are included in a burger?". Now, with GenAI, we can ask the person: Tell us, how do you make a burger? and use GenAI to grade it. Nice. But how do we know if those new GenAI based tests really reflect someone's ability to make a juicy burger? That is the question of test validity.
+# The Core Message (sandwiched between two pieces of bread)
+
+Suppose we want to know if someone really knows how to make a burger, before we ask the person to actually make one. In traditional classroom education settings, we would have given out a multiple choice tests containing questions such as "Which of the following ingredients are included in a burger?". Now, with GenAI, we can ask the person: "Tell us, how do you make a burger?" and use GenAI to both score the answers and analyze the answers. Very nice. But how do we know if those new GenAI based tests really reflect someone's ability to make a juicy burger? That is the question of test validity.
 
 ## The future of tests
 What should test in the future be like? The authors listed three things:
@@ -31,6 +36,9 @@ Personally, I think that this definition has an important implication: if an ent
 The more I think about the definition of a "construct", the less I think I understand it. Below is a "junk food" version of how I currently understand this concept, which is highly debatable but hopefully has some truth to it:
 
 Whether a sandwich is a hamburger, a cheeseburger, or a bacon burger, is an objective existence that is not hypothetical, nor purely constructed (one can always question what counts as a piece of cheese, for example, but in most cases it is obvious.)
+
+<img src="../assets/images/junk_food.webp" width="200" style = "float: left; margin-right: 2em"
+alt = "AI generative image of a burger merged with an academic paper">
 
 "How would you like your burger cooked", refers to a "constructed" concept. Terms such as "medium rare" are constructed by humans, and no two restaurants can 100% agree on how rare is "medium rare". But this is still not a "construct", since the "cookedness" of a beef pattie is directly observable (or tastable) if you cut it open or bite into it.
 
@@ -75,6 +83,9 @@ Evidence sources outlined in the Standards for Educational and Psychological Tes
 5. validity generalization.
 
 Yes, it is much harder than the hardest boiled egg.
+
+<img src="../assets/images/junk_food_3.webp" width="200" style = "float: left; margin-right: 2em"
+alt = "AI generative image of a burger merged with an academic paper">
 
 ## Evidence based on test content: is it really about the burger?
 *"This type of evidence relates to analyzing the relationship between the test content and the construct it is intended to measure."*
@@ -139,7 +150,14 @@ Now that I have developed a perfectly valid test (and scoring system) for stake 
 
 Maybe we can design some mechanism/tool to detect or estimate the level of validity degrade as assessments are being modified, and recommend different levels of re-validation depending on the signal.
 
-# How did you like the burger?
+# To-go box for takeaways
+I think the paper provides some very useful language and framework to discuss validity of assessments in general, and is important for unleashing the power of GenAI to revolutionize assessment. My biggest takeaway is that there are basically three ways GenAI can transform assessments suggested in this paper:
+
+1. Grading open ended response according to rubrics.
+2. Pattern analysis of open ended response to problems. 
+3. Assist in problem generation
+
+However, I think the authors left out one important potential use-case of GenAI, which is to create new forms of assessment types, such as conversation-based assessment. Of course, the validation framework proposed in this paper should be applied to validate any new forms of assessment.
 
 For anyone who read this far, thank you for reading and hope you find this junk food summary easier to read compared to the original paper. Hopefully I retained at least some of the good stuff from the original salad bowl. Let me know if you have any recommendations for other healthy papers that you would like a "junk food" version. 
 
