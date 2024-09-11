@@ -5,7 +5,7 @@ date: 2024-09-05
 # The Junk Food Summary of a Healthy Paper
 Some papers are like a giant bowl of Quinoa salad with no dressing: you know it is really good for you but you just need a lot of self-discipline to finish it.
 
-Here is one such paper: Kaldaras, L., Akaeze, H. O., & Reckase, M. D. (2024). Developing valid assessments in the era of generative artificial intelligence. Frontiers in Education, 9, 1399377. [https://doi.org/10.3389/FEDUC.2024.1399377/BIBTEX]. It has an whole lot of great stuff, but, I have say that reading through it requires a couple cups of coffee to say the least.
+Here is one such paper: [Kaldaras, L., Akaeze, H. O., & Reckase, M. D. (2024). Developing valid assessments in the era of generative artificial intelligence. Frontiers in Education, 9, 1399377.](https://doi.org/10.3389/FEDUC.2024.1399377/BIBTEX). It has an whole lot of great stuff, but, I have say that reading through it requires a couple cups of coffee to say the least.
 
 So I decided to create a "junk food" version summary of this paper: it will be unhealthy and probably miss a LOT of the intellectual vitamins in the original salad bowl, but, hopefully it tastes better 😄
 
@@ -117,10 +117,29 @@ So the correct suggestion should be: Ask GAI to first produce a grading reasonin
 
 ## Evidence based on internal structure
 
-## Evidence based on relation to other
+This type of evidence pertains specifically to a multi-item test. If the test is designed to measure for example a uni-dimensional construct, then it should behave in a uni-dimensional way, i.e., all problems should lie on a very organized difficulty hierarchy from easiest to hardest. If some problems are harder than average for some students but easier than average for other students, then the construct may not be a good hypothesis of the underlying knowledge structure. 
+
+Traditionally, determining the dimensionality of a test construct is a very difficult task that involves techniques such as principle component analysis or multi-dimensional IRT, etc. Now, with GAI and rubric based grading, it could be much easier to identify the dimensionalities of the assessments, since we can look into the reasoning provided by students, and do embedding + clustering on students' responses.
+
+I personally think that the "dimensionality" of a test is not something that will have a definite answer. How many different factors go into judging the quality of a burger? People write papers and books about quality of tomato or bacon, so the actual number of possible judgement criteria is impossibly large. We need to think about the level of coarse-graining that makes the dimensionality useful and practical for a test.
+
+## Evidence based on relation to other variables
+
+I must admit that I still don't have a good idea what "relation to other variables" actually mean. Reading through the entire section, the basic idea as it pertains to GAI grading of open-ended written response is quite straight-forward and important: Treating human grading as gold standard for judging the quality of GAI grading has its limitations. Humans can be biased in many ways in their grading, and their consistency can decays quickly over time. 
+
+But what should serve as the gold standard then? It seems like the best way of overcoming human bias and fatigue is to build an AI that…Oh, wait a minute….
+
+The authors suggest that one could have multiple diverse experts score the same set of student response, and use the consensus as "gold-standards", but then the process becomes extremely expensive. The problem is that consensus grading of one problem probably has very limited transferability to a different problem, and it is impossible to do a multi-expert consensus grading for every problem.
 
 # Validity Generalization
 
+Now that I have developed a perfectly valid test (and scoring system) for stake burgers. Will the test and scoring rubrics still be valid if I use it for chicken burger? What about fish? Veggie burger? When do we need to re-validate the system, and to what extent? Do we need to re-validate all five sources of evidence, or shall we prioritize some over others?
+
+Maybe we can design some mechanism/tool to detect or estimate the level of validity degrade as assessments are being modified, and recommend different levels of re-validation depending on the signal.
+
+# How did you like the burger?
+
+For anyone who read this far, thank you for reading and hope you find this junk food summary easier to read compared to the original paper. Hopefully I retained at least some of the good stuff from the original salad bowl. Let me know if you have any recommendations for other healthy papers that you would like a "junk food" version. 
 
 ---
 <script src="https://utteranc.es/client.js"
