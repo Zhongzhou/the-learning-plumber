@@ -5,7 +5,8 @@ date: 2024-09-05
 # The Junk Food Summary of a Healthy Paper
 Some papers are like a giant bowl of Quinoa salad with no dressing: you know it is really good for you but you just need a lot of self-discipline to finish it.
 
-Here is one such paper: [Kaldaras, L., Akaeze, H. O., & Reckase, M. D. (2024). Developing valid assessments in the era of generative artificial intelligence. Frontiers in Education, 9, 1399377.](https://doi.org/10.3389/FEDUC.2024.1399377/BIBTEX). It has an whole lot of great stuff, but, I have say that reading through it requires a couple cups of coffee to say the least.
+
+Here is one such paper: [Kaldaras, L., Akaeze, H. O., & Reckase, M. D. (2024). Developing valid assessments in the era of generative artificial intelligence. Frontiers in Education, 9, 1399377.](https://doi.org/10.3389/FEDUC.2024.1399377/BIBTEX). It has a whole lot of great stuff, but, I have to say that reading through it requires a couple cups of coffee to say the least.
 
 So I decided to create a "junk food" version summary of this paper: it will be unhealthy and probably miss a LOT of the intellectual vitamins in the original salad bowl, but, hopefully it tastes better 😄
 
@@ -78,6 +79,7 @@ Yes, it is much harder than the hardest boiled egg.
 ## Evidence based on test content: is it really about the burger?
 *"This type of evidence relates to analyzing the relationship between the test content and the construct it is intended to measure."*
 
+
 A burger test should be about burgers, so the question "how do you use fork and knife to eat food" has limited content validity, unless the correct answer is "you don't". 
 
 A physics test should be about physics. Yet, I was going through all the back of chapter problems of a popular textbook recently and was "struck in the head" by a baseball problem, which challenged my limited knowledge regarding baseball terminology more than anything else.
@@ -140,6 +142,7 @@ Maybe we can design some mechanism/tool to detect or estimate the level of valid
 # How did you like the burger?
 
 For anyone who read this far, thank you for reading and hope you find this junk food summary easier to read compared to the original paper. Hopefully I retained at least some of the good stuff from the original salad bowl. Let me know if you have any recommendations for other healthy papers that you would like a "junk food" version. 
+
 
 ---
 <script src="https://utteranc.es/client.js"
