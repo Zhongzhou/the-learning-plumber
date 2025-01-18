@@ -4,15 +4,15 @@ date: 2025-01-16
 ---
 
 # Might your next grader be an AI? 
-## Getting AI to grade student responses and much more
-This [paper on using GPT for partial credit grading](https://arxiv.org/abs/2412.06910) has been keeping me really busy for the past couple of months (in addition to an incredible trip back to China). The paper is really long because I promised too many things to the editors of the special journal collection that I'm submitting the paper to, which I only realized after I actually started working on it.  
+## Getting GPT to grade student responses and much more
+This [paper on using GPT for partial credit grading](https://arxiv.org/abs/2412.06910) has been keeping me really busy for the past couple of months (in addition to an incredible trip back to China). The paper is really long because I promised too many things to the editors of the special journal collection that I'm submitting the it to, which I only realized after I actually started working on it.  
 
 Long story short, I figured out how to get GPT-4o to: 
-1. Assign partial credit of students' written response to common physics problems according to multi-point rubric
-2. Generate grading justification a grading confidence index for humans to review, and 
+1. Assign partial credit of students' written response to common physics problems according to a multi-point rubric
+2. Generate grading justification and a grading confidence index for humans to review, and 
 3. Write feedback to students about why they received the scores that they got. 
 
-Yes, GPT can do all of those efficiently and consistently, while still allowing humans to have sufficient oversight on the grading process. In fact, I feel that I have more control over machine grader than over human grader, because AI meticulously writes down why it assigns each point. I can't remember when was the last time I asked my human grader to justify their own grading, and most of the time the graders have already forgotten their reasoning after all the grading is done.
+Yes, GPT can do all of those efficiently and consistently, while allowing humans to have extensive oversight on the grading process. In fact, I feel that I have more control over the AI grader than over human graders, as AI meticulously writes down why it assigns each point. I can't remember when was the last time I asked my human grader to justify their own grading, and most of the time they had already forgotten everything when they are done with the last paper.
 
 I'm hoping to write a series of posts explaining the paper in a more reader friendly way (junk food summaries), including how the research actually unfolded (sometimes quite dramatically), explaining the technique that I used for new comers to GenAI, and sharing some (hopefully) interesting thoughts and opinions that didn't get into the paper.
 
@@ -22,7 +22,7 @@ As the first post, I will do a "junk food" version summary of the main ideas of 
 
 ## GPT-4o can grade as good as human graders, and it is incredibly easy to set up the process.
 
-It is no news now that LLMs such as GPT-4 and llama can grade students' written responses as good as, or even better than your average or even expert human grader. (See the lit review in my paper for a summary) What is surprising to me is how easy it is to set it up and get going, and how ridiculously cheap it is to do high quality grading.
+It is no news nowadays that LLMs such as GPT-4 and llama can grade students' written responses in multiple disciplines as good as, or even better than the average or even the expert human grader. (See the lit review in my paper for a summary) What is surprising (and a bit scary) to me is how easy it is to set it up and get going, and how ridiculously cheap it is to do high quality grading.
 
 In my case, GPT can grade about 100 student written responses on a 3 point rubric, generate confidence intervals, and write individual feedback to every student in about 1 hour, and cost under $5. Yes, you heard me right, 1 hour, $5, and it is getting cheaper and better by the day. 
 
@@ -44,27 +44,27 @@ As you can see, any instructor with a little bit of python experience and a GPT 
 
 ## Should our next grader be an AI?
 
-Yes. I think so. But it is not because it is cheap. 
+Yes. I think so, and it is mostly not because that it is cheap. 
 
-To me the greatest advantage of an AI grader is that the entire grading process is extremely transparent, and can be continuously evaluated and improved. 
+Yes, AI graders can still make all kinds of grading mistakes, it can be biased against certain types of language for forms of answering, it can overlook very creative and non-conventional answers, it will still make spontaneous mistakes despite our best effort due to the nature of generative AI. Yet a human grader could make ALL of those mistakes too, and in the vast majority of cases we have very little idea how frequently those grading errors are  happen on a daily basis. I mean, how can you ask any grader to write down their justification for every point assigned to every student, when you've just assigned to grade 100 student responses?
 
-Yes, AI can still make all kinds of grading mistakes, it can be biased against certain types of language use, it can overlook very creative and non-conventional answers, it will still make spontaneous mistakes despite our best effort due to the nature of generative AI.
+To me the greatest strength of an AI grader is that the *entire grading process is extremely transparent, which makes it possible to continuously evaluate and improve its grading quality.*
 
-Yet a human grader might fall for ALL of those things too, and in the vast majority of cases we have very little idea about how frequently those grading errors happen on a daily basis. I mean, how can you ask any grader to write down their justification for every point assigned to every student, when they are assigned to grade 100 student responses? But AI does that by default. An AI grader's decision making process can be made almost completely transparent to both the instructor and the student.  
+In other words, even though an AI grader is far from perfect, we can be confident that we can detect those imperfectness, and the next round of grading will always be more fair, more inclusive and more accurate. 
 
-Moreover, whenever we found that AI is making a certain type of mistake, we can always tweak the prompt to make it better next time it grades the same problem. No TA training program can get close to that with human TAs. When your most senior and experienced grader leaves the position, you are basically starting from scratch training new graders. AI grader, on the other hand, will continue to improve as long as the prompt is stored somewhere in the cloud. 
+It maybe true that if you put in the same amount of work training a human grader, that grader can surpass the AI grader in a shorter amount of time. But a human grader will leave in a couple of years, but the AI grader will live in the cloud effectively forever.
 
-In short, the greatest advantage of an AI grader is that even though it may be far from perfect, it can always be made better the next time. (BTW it is also much much cheaper and faster)
+## Will human graders (or human teachers) become obsolete?
 
-## Will human graders become obsolete?
+Yes and No, and it is quite a weak Yes versus a very strong **No**. 
 
-Yes and No, and it is a weak Yes vs. a very strong No. 
+The only situation I can think of where human graders will become obsolete is that if we stop innovating in teaching and learning, and teach/test exactly the same way as we do today. In that case, yes. Because of all the reasons above, there is no way a human grader can compete with a fully developed AI grader. That type of replacement is already happening in workplaces all over the place. 
 
-The only situation I can think of where human graders will become obsolete is that if we stop any educational innovation, and teach exactly the same way as we do today. In that case, yes, graders will become completely obsolete, as the will never be able to compete with AI graders. 
+Yet I see no reason why we should, or will stop all innovation in teaching and learning, especially since AI will new free us from mostly repetitive task of grading.
 
-Yet this is highly unlikely, since there are so many things that we can do differently and better with AI graders. 
+At the very least, we can greatly increase the number of written response questions in the course, as they are so much better for learning than multiple-choice questions. Instead of assigning humans as graders, future teaching assistants will be tasked with creating and evaluating new problems, designing grading rubrics, writing rubric explanations, check for AI grading errors, and improve the prompt design. All of which are essential for the process and must be done by a human expert, at least in the short term. 
 
-At the very least, we can greatly increase the number of written response questions in the course, as they are so much better for learning than multiple-choice ones. Instead of assigning graders to grade, future graders will be tasked with designing grading rubrics, writing explanations, and checking for AI grading errors. 
+More importantly, now more than ever is the time to innovate and rethink the basic building blocks of the entire process of teaching and learning. What new types of questions or tasks shall we give our students? How can we collect evidences from students' work, and make meaningful evaluation of their knowledge and ability? How can we enable and empower each individual student to develop in their own pace? How do we teach and assess creativity and critical thinking?
 
 
 
