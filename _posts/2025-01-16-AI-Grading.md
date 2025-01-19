@@ -35,68 +35,19 @@ Here's one example of what GPT grading looks like.
     <br />
     <div>&nbsp; &nbsp; (Each item gets 1 point when satisfied)</div>
     </div>
-
-    # Item 1: The student wrote down conservation of mechanical energy equation or indicated that mechanical energy can be used to solve the problem
-
-    # Item 2: The potential energy term of the conservation of mechanical energy formula contains both a gravitational potential energy term and an elastic potential energy term.
-
-    # Item 3: The gravitational potential energy term contains a modification to the height h, similar to mg(h + L - L_0), and shouldn't be just mgh or mgL
-
-    (Each item gets 1 point when satisfied)
 </details>
 
 <details>
     <summary>Student Response</summary>
     
-    1) The problem above is asking for the magnitude of the final velocityÂ¬â€ 
-
-    2) I broke the problem down into the following steps
-
-    a). Set up a coordinate system in which the final state of the ball is considered zero in the y direction. This allows me to say that there is no final gravitational potential energy, and allows me to properly solve for the height of the ball initially to find the initial gravitational potential energy. I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed.
-
-    b). Set up a law of conservation of mechanical energy equation(ME initial = ME final). This is allowed because there are no non conservative forces acting on the system
-    
-    c). Solve my equation for v final and plug in my valuesÂ¬â€ 
-
-    d). Take the absolute value to give me the magnitude of the final velocity
+    <p>&nbsp; &nbsp; 1) The problem above is asking for the magnitude of the final velocityÂ¬â€&nbsp;</p><p><br></p><p>&nbsp; &nbsp; 2) I broke the problem down into the following steps</p><p><br></p><p>&nbsp; &nbsp;     a). Set up a coordinate system in which the final state of the ball is considered zero in the y direction. This allows me to say that there is no final gravitational potential energy, and allows me to properly solve for the height of the ball initially to find the initial gravitational potential energy. I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed.</p><p><br></p><p>&nbsp; &nbsp;     b). Set up a law of conservation of mechanical energy equation(ME initial = ME final). This is allowed because there are no non conservative forces acting on the system</p><p>&nbsp; &nbsp; </p><p>&nbsp; &nbsp;     c). Solve my equation for v final and plug in my valuesÂ¬â€&nbsp;</p><p><br></p><p>&nbsp; &nbsp;     d). Take the absolute value to give me the magnitude of the final velocity</p>
     
 </details>
 
 <details>
     <summary>AI grading outcome</summary>
+    <p>Let's evaluate the student's response based on the given rubric.</p><p><br></p><p>&nbsp; &nbsp; ### Item 1: Conservation of Mechanical Energy</p><p>&nbsp; &nbsp; The student states: </p><p>&nbsp; &nbsp; - "Set up a law of conservation of mechanical energy equation(ME initial = ME final). This is allowed because there are no non conservative forces acting on the system."</p><p>&nbsp; &nbsp; This clearly indicates the use of conservation of mechanical energy. </p><p><br></p><p>&nbsp; &nbsp; **Conclusion: Satisfied**</p><p>&nbsp; &nbsp; **Points: 1**</p><p><br></p><p>&nbsp; &nbsp; ### Item 2: Inclusion of Gravitational and Elastic Potential Energy Terms</p><p>&nbsp; &nbsp; The student mentions:</p><p>&nbsp; &nbsp; - "I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed."</p><p>&nbsp; &nbsp; - However, they do not explicitly mention elastic potential energy or its mathematical representation (e.g., 0.5kx^2).</p><p><br></p><p>&nbsp; &nbsp; **Conclusion: Not Satisfied**</p><p>&nbsp; &nbsp; **Points: 0**</p><p><br></p><p>&nbsp; &nbsp; ### Item 3: Modification to the Height in Gravitational Potential Energy</p><p>&nbsp; &nbsp; The student states:</p><p>&nbsp; &nbsp; - "I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed."</p><p>&nbsp; &nbsp; This implies that the student understands the modification needed for the gravitational potential energy term.</p><p><br></p><p>&nbsp; &nbsp; **Conclusion: Satisfied**</p><p>&nbsp; &nbsp; **Points: 1**</p><p><br></p><p>&nbsp; &nbsp; ### Final Grading Response</p><p>&nbsp; &nbsp; Based on the above evaluation:</p><p>&nbsp; &nbsp; **Vector: {1,0,1}**</p>
     
-    <p>Let's evaluate the student's response based on the given rubric.</p>
-
-    ### Item 1: Conservation of Mechanical Energy
-    The student states: 
-    - "Set up a law of conservation of mechanical energy equation(ME initial = ME final). This is allowed because there are no non conservative forces acting on the system."
-    This clearly indicates the use of conservation of mechanical energy. 
-
-    **Conclusion: Satisfied**
-    **Points: 1**
-
-    ### Item 2: Inclusion of Gravitational and Elastic Potential Energy Terms
-    The student mentions:
-    - "I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed."
-    - However, they do not explicitly mention elastic potential energy or its mathematical representation (e.g., 0.5kx^2).
-
-    **Conclusion: Not Satisfied**
-    **Points: 0**
-
-    ### Item 3: Modification to the Height in Gravitational Potential Energy
-    The student states:
-    - "I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed."
-    This implies that the student understands the modification needed for the gravitational potential energy term.
-
-    **Conclusion: Satisfied**
-    **Points: 1**
-
-    ### Final Grading Response
-    Based on the above evaluation:
-    **Vector: {1,0,1}**
-
-    
-
 </details>
 
 <details>
