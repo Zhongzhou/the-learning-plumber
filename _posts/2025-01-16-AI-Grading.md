@@ -3,19 +3,18 @@ title: "Might your next grader be an AI?"
 date: 2025-01-16
 ---
 
-# Might your next grader be an AI? 
 <img src="../../../assets/images/AI_grader.webp" width="500" style = "float: center; margin-right: 2em"
 alt = "A busy AI grader working to grade lots of student papers.">
-(image created by chatGPT)
+Might your next grader be an AI? (image created by chatGPT)
 ## Getting GPT to grade student responses and much more
-This [paper on using GPT for partial credit grading](https://arxiv.org/abs/2412.06910) has been keeping me really busy for the past couple of months (in addition to an incredible trip back to China). The paper is really long because I promised too many things to the editors of the special journal collection that I'm submitting the it to, which I only realized after I actually started working on it.  
+This paper: [https://arxiv.org/abs/2412.06910]() on using GPT to assign partial credit to students' written response to common physics problems has been keeping me really busy for the past couple of months (in addition to an incredible trip back to China). 
 
 Long story short, I figured out how to get GPT-4o to: 
 1. Assign partial credit to student's written response to common physics problems according to a multi-point rubric.
 2. Generate grading justification and a grading confidence index for humans to review, and 
 3. Write feedback to students about why they received the scores that they got. 
 
-In the three problems tested in the study, two human graders agree with each other about 70% ~ 75% of all cases. The AI grader can agree with each human grader 70% ~ 75% of all cases!! 
+In the three problems tested in the study, two human graders agree with each other about 70% ~ 75% of all cases. The AI grader can agree with each human grader 70% ~ 75% of all cases, just as much as human graders agree amongst themselves. 
 
 Here's one example of what GPT grading looks like. 
 
@@ -39,7 +38,6 @@ Here's one example of what GPT grading looks like.
 
 <details>
     <summary>Student Response</summary>
-    
     <p>&nbsp; &nbsp; 1) The problem above is asking for the magnitude of the final velocityÂ¬â€&nbsp;</p><p><br></p><p>&nbsp; &nbsp; 2) I broke the problem down into the following steps</p><p><br></p><p>&nbsp; &nbsp;     a). Set up a coordinate system in which the final state of the ball is considered zero in the y direction. This allows me to say that there is no final gravitational potential energy, and allows me to properly solve for the height of the ball initially to find the initial gravitational potential energy. I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed.</p><p><br></p><p>&nbsp; &nbsp;     b). Set up a law of conservation of mechanical energy equation(ME initial = ME final). This is allowed because there are no non conservative forces acting on the system</p><p>&nbsp; &nbsp; </p><p>&nbsp; &nbsp;     c). Solve my equation for v final and plug in my valuesÂ¬â€&nbsp;</p><p><br></p><p>&nbsp; &nbsp;     d). Take the absolute value to give me the magnitude of the final velocity</p>
     
 </details>
@@ -52,23 +50,25 @@ Here's one example of what GPT grading looks like.
 
 <details>
     <summary>Feedback to Student</summary>
-
     <p>&nbsp; &nbsp; Partial credit grading for this problem is based on the following aspects:</p><p>&nbsp; &nbsp; First, whether you indicated the use of the conservation of mechanical energy to solve the problem.</p><p>&nbsp; &nbsp; Second, whether your explanation included both gravitational potential energy and elastic potential energy terms.</p><p>&nbsp; &nbsp; Finally, whether your explanation showed that the gravitational potential energy calculation involved a modification to the height h.</p><p><br></p><p>&nbsp; &nbsp; You clearly showed that you used the conservation of mechanical energy by stating, "Set up a law of conservation of mechanical energy equation(ME initial = ME final)." This clearly indicates your understanding of using mechanical energy conservation to solve the problem.</p><p><br></p><p>&nbsp; &nbsp; You also indicated that the calculation of the gravitational potential energy involves a modification to the height h by saying, "I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed."</p><p><br></p><p>&nbsp; &nbsp; However, your explanation did not show that you included both gravitational potential energy and elastic potential energy terms in your solution. While you mentioned the height modification for gravitational potential energy, there was no explicit mention or mathematical representation of the elastic potential energy, such as 0.5kx^2.</p><p><br></p><p>&nbsp; &nbsp; If you have any questions regarding the grading, do not hesitate to reach out to your teacher.</p>
 </details>
 
-
+Interested readers can look at all the code behind the process and play with the data in this [github repo](https://github.com/Zhongzhou/Scripts-and-data-for-AI-grading)
 
 Yes, GPT can do all of the above at human level accuracy, at a fraction of the cost of human graders, while allowing humans to examine each step of the process. In fact, I feel that I have more control over the AI grader than over human graders, as AI meticulously writes down why it assigns each point. I can't remember when was the last time I asked my human grader to justify their own grading, and most of the time they had already forgotten everything when they are done with the last paper.
 
+The paper is really long because I promised too many things to the editors of the special journal collection that I'm submitting the it to, which I only realized after I actually started working on it.  
+
+
 I'm hoping to write a series of posts explaining the paper in a more reader friendly way (junk food summaries), including how the research actually unfolded (sometimes quite dramatically), explaining the technique that I used for new comers to GenAI, and sharing some (hopefully) interesting thoughts and opinions that didn't get into the paper.
 
-Interested readers can look at all the code behind the process and play with the data in this github repo: https://github.com/Zhongzhou/Scripts-and-data-for-AI-grading
-
-As the first post, I will do a "junk food" version summary of the main ideas of the paper as usual, plus some thoughts on the role of humans in the future of AI. 
+As the first post of this series, I will do a quick summary of the main ideas of the paper, plus some thoughts on the role of humans in the future of AI. 
 
 ## GPT-4o can grade as good as human graders, and it is incredibly easy to set up the process.
 
-It is no news nowadays that LLMs such as GPT-4 and llama can grade students' written responses in multiple disciplines as good as, or even better than the average or even the expert human grader. (See the lit review in my paper for a summary) What is surprising (and a bit scary) to me is how easy it is to set it up and get going, and how ridiculously cheap it is to do high quality grading.
+It is no news nowadays that LLMs such as GPT-4 and llama can grade students' written responses in multiple disciplines as good as, or even better than the average or even the expert human grader. (See the lit review in my paper for a summary)
+
+What is surprising (and a bit scary) to me is how easy it is to set it up and get going, and how ridiculously cheap it is to do high quality grading.
 
 In my case, GPT can grade about 100 student written responses on a 3 point rubric, generate confidence intervals, and write individual feedback to every student in about 1 hour, and cost under $5. Yes, you heard me right, 1 hour, $5, and it is getting cheaper and better by the day. 
 
