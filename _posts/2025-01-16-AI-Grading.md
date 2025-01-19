@@ -8,30 +8,103 @@ date: 2025-01-16
 This [paper on using GPT for partial credit grading](https://arxiv.org/abs/2412.06910) has been keeping me really busy for the past couple of months (in addition to an incredible trip back to China). The paper is really long because I promised too many things to the editors of the special journal collection that I'm submitting the it to, which I only realized after I actually started working on it.  
 
 Long story short, I figured out how to get GPT-4o to: 
-1. Assign partial credit of students' written response to common physics problems according to a multi-point rubric
+1. Assign partial credit to student's written response to common physics problems according to a multi-point rubric.
 2. Generate grading justification and a grading confidence index for humans to review, and 
 3. Write feedback to students about why they received the scores that they got. 
+
+In the three problems tested in the study, two human graders agree with each other about 70% ~ 75% of all cases. The AI grader can agree with each human grader 70% ~ 75% of all cases!! 
 
 Here's one example of what GPT grading looks like.
 
 <details>
     <summary>Problem body</summary>
+    A small massive ball of mass [m] kg is dropped straight down into a tube containing an ideal spring. The spring has spring constant k = [k] N/m and relaxed length of L0 = [L0] meters. The ball was launched to a height of h = [h] meters above the top of the spring. When the spring was compressed to a length of L = [L] meters, what is the magnitude of velocity v of the ball at that time in units of meters per second?
+</details>
+
+<details>
+    <summary>Grading Rubric</summary>
+    # Item 1: The student wrote down conservation of mechanical energy equation or indicated that mechanical energy can be used to solve the problem 
+
+    # Item 2: The potential energy term of the conservation of mechanical energy formula contains both a gravitational potential energy term and an elastic potential energy term.
+
+    # Item 3: The gravitational potential energy term contains a modification to the height h, similar to mg(h + L - L_0), and shouldn't be just mgh or mgL
+
+    (Each item gets 1 point when satisfied)
 </details>
 
 <details>
     <summary>Student Response</summary>
+    
+    1) The problem above is asking for the magnitude of the final velocityÂ¬â€ 
+
+    2) I broke the problem down into the following steps
+
+    a). Set up a coordinate system in which the final state of the ball is considered zero in the y direction. This allows me to say that there is no final gravitational potential energy, and allows me to properly solve for the height of the ball initially to find the initial gravitational potential energy. I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed.
+
+    b). Set up a law of conservation of mechanical energy equation(ME initial = ME final). This is allowed because there are no non conservative forces acting on the system
+    
+    c). Solve my equation for v final and plug in my valuesÂ¬â€ 
+
+    d). Take the absolute value to give me the magnitude of the final velocity
+    
 </details>
 
 <details>
-    <summary>AI grading</summary>
+    <summary>AI grading outcome</summary>
+    
+    Let's evaluate the student's response based on the given rubric.
+
+    ### Item 1: Conservation of Mechanical Energy
+    The student states: 
+    - "Set up a law of conservation of mechanical energy equation(ME initial = ME final). This is allowed because there are no non conservative forces acting on the system."
+    This clearly indicates the use of conservation of mechanical energy. 
+
+    **Conclusion: Satisfied**
+    **Points: 1**
+
+    ### Item 2: Inclusion of Gravitational and Elastic Potential Energy Terms
+    The student mentions:
+    - "I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed."
+    - However, they do not explicitly mention elastic potential energy or its mathematical representation (e.g., 0.5kx^2).
+
+    **Conclusion: Not Satisfied**
+    **Points: 0**
+
+    ### Item 3: Modification to the Height in Gravitational Potential Energy
+    The student states:
+    - "I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed."
+    This implies that the student understands the modification needed for the gravitational potential energy term.
+
+    **Conclusion: Satisfied**
+    **Points: 1**
+
+    ### Final Grading Response
+    Based on the above evaluation:
+    **Vector: {1,0,1}**
+
+    
+
 </details>
 
 <details>
     <summary>Feedback to Student</summary>
+
+    Partial credit grading for this problem is based on the following aspects:
+    First, whether you indicated the use of the conservation of mechanical energy to solve the problem.
+    Second, whether your explanation included both gravitational potential energy and elastic potential energy terms.
+    Finally, whether your explanation showed that the gravitational potential energy calculation involved a modification to the height h.
+
+    You clearly showed that you used the conservation of mechanical energy by stating, "Set up a law of conservation of mechanical energy equation(ME initial = ME final)." This clearly indicates your understanding of using mechanical energy conservation to solve the problem.
+
+    You also indicated that the calculation of the gravitational potential energy involves a modification to the height h by saying, "I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed."
+
+    However, your explanation did not show that you included both gravitational potential energy and elastic potential energy terms in your solution. While you mentioned the height modification for gravitational potential energy, there was no explicit mention or mathematical representation of the elastic potential energy, such as 0.5kx^2.
+
+    If you have any questions regarding the grading, do not hesitate to reach out to your teacher.
 </details>
 
 
-Yes, GPT can do all of those at once, while allowing humans to have extensive oversight on the grading process. In fact, I feel that I have more control over the AI grader than over human graders, as AI meticulously writes down why it assigns each point. I can't remember when was the last time I asked my human grader to justify their own grading, and most of the time they had already forgotten everything when they are done with the last paper.
+Yes, GPT can do all of the above at human level accuracy, at a fraction of the cost of human graders, while allowing humans to examine each step of the process. In fact, I feel that I have more control over the AI grader than over human graders, as AI meticulously writes down why it assigns each point. I can't remember when was the last time I asked my human grader to justify their own grading, and most of the time they had already forgotten everything when they are done with the last paper.
 
 I'm hoping to write a series of posts explaining the paper in a more reader friendly way (junk food summaries), including how the research actually unfolded (sometimes quite dramatically), explaining the technique that I used for new comers to GenAI, and sharing some (hopefully) interesting thoughts and opinions that didn't get into the paper.
 
