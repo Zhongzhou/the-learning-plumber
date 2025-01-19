@@ -26,6 +26,15 @@ Here's one example of what GPT grading looks like.
 
 <details>
     <summary>Grading Rubric</summary>
+    <div>
+    <div>&nbsp; &nbsp; # Item 1: The student wrote down conservation of mechanical energy equation or indicated that mechanical energy can be used to solve the problem</div>
+    <br />
+    <div>&nbsp; &nbsp; # Item 2: The potential energy term of the conservation of mechanical energy formula contains both a gravitational potential energy term and an elastic potential energy term.</div>
+    <br />
+    <div>&nbsp; &nbsp; # Item 3: The gravitational potential energy term contains a modification to the height h, similar to mg(h + L - L_0), and shouldn't be just mgh or mgL</div>
+    <br />
+    <div>&nbsp; &nbsp; (Each item gets 1 point when satisfied)</div>
+    </div>
 
     # Item 1: The student wrote down conservation of mechanical energy equation or indicated that mechanical energy can be used to solve the problem
 
