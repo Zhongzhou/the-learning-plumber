@@ -4,6 +4,9 @@ date: 2025-01-16
 ---
 
 # Might your next grader be an AI? 
+<img src="../../../assets/images/AI_grader.webp" width="500" style = "float: center; margin-right: 2em"
+alt = "A busy AI grader working to grade lots of student papers.">
+(image created by chatGPT)
 ## Getting GPT to grade student responses and much more
 This [paper on using GPT for partial credit grading](https://arxiv.org/abs/2412.06910) has been keeping me really busy for the past couple of months (in addition to an incredible trip back to China). The paper is really long because I promised too many things to the editors of the special journal collection that I'm submitting the it to, which I only realized after I actually started working on it.  
 
