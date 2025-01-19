@@ -14,7 +14,7 @@ Long story short, I figured out how to get GPT-4o to:
 
 In the three problems tested in the study, two human graders agree with each other about 70% ~ 75% of all cases. The AI grader can agree with each human grader 70% ~ 75% of all cases!! 
 
-Here's one example of what GPT grading looks like.
+Here's one example of what GPT grading looks like. 
 
 <details>
     <summary>Problem body</summary>
@@ -23,7 +23,8 @@ Here's one example of what GPT grading looks like.
 
 <details>
     <summary>Grading Rubric</summary>
-    # Item 1: The student wrote down conservation of mechanical energy equation or indicated that mechanical energy can be used to solve the problem 
+
+    # Item 1: The student wrote down conservation of mechanical energy equation or indicated that mechanical energy can be used to solve the problem
 
     # Item 2: The potential energy term of the conservation of mechanical energy formula contains both a gravitational potential energy term and an elastic potential energy term.
 
@@ -52,7 +53,7 @@ Here's one example of what GPT grading looks like.
 <details>
     <summary>AI grading outcome</summary>
     
-    Let's evaluate the student's response based on the given rubric.
+    <p>Let's evaluate the student's response based on the given rubric.</p>
 
     ### Item 1: Conservation of Mechanical Energy
     The student states: 
@@ -102,6 +103,7 @@ Here's one example of what GPT grading looks like.
 
     If you have any questions regarding the grading, do not hesitate to reach out to your teacher.
 </details>
+
 
 
 Yes, GPT can do all of the above at human level accuracy, at a fraction of the cost of human graders, while allowing humans to examine each step of the process. In fact, I feel that I have more control over the AI grader than over human graders, as AI meticulously writes down why it assigns each point. I can't remember when was the last time I asked my human grader to justify their own grading, and most of the time they had already forgotten everything when they are done with the last paper.
