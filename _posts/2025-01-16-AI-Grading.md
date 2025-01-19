@@ -47,24 +47,13 @@ Here's one example of what GPT grading looks like.
 <details>
     <summary>AI grading outcome</summary>
     <p>Let's evaluate the student's response based on the given rubric.</p><p><br></p><p>&nbsp; &nbsp; ### Item 1: Conservation of Mechanical Energy</p><p>&nbsp; &nbsp; The student states: </p><p>&nbsp; &nbsp; - "Set up a law of conservation of mechanical energy equation(ME initial = ME final). This is allowed because there are no non conservative forces acting on the system."</p><p>&nbsp; &nbsp; This clearly indicates the use of conservation of mechanical energy. </p><p><br></p><p>&nbsp; &nbsp; **Conclusion: Satisfied**</p><p>&nbsp; &nbsp; **Points: 1**</p><p><br></p><p>&nbsp; &nbsp; ### Item 2: Inclusion of Gravitational and Elastic Potential Energy Terms</p><p>&nbsp; &nbsp; The student mentions:</p><p>&nbsp; &nbsp; - "I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed."</p><p>&nbsp; &nbsp; - However, they do not explicitly mention elastic potential energy or its mathematical representation (e.g., 0.5kx^2).</p><p><br></p><p>&nbsp; &nbsp; **Conclusion: Not Satisfied**</p><p>&nbsp; &nbsp; **Points: 0**</p><p><br></p><p>&nbsp; &nbsp; ### Item 3: Modification to the Height in Gravitational Potential Energy</p><p>&nbsp; &nbsp; The student states:</p><p>&nbsp; &nbsp; - "I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed."</p><p>&nbsp; &nbsp; This implies that the student understands the modification needed for the gravitational potential energy term.</p><p><br></p><p>&nbsp; &nbsp; **Conclusion: Satisfied**</p><p>&nbsp; &nbsp; **Points: 1**</p><p><br></p><p>&nbsp; &nbsp; ### Final Grading Response</p><p>&nbsp; &nbsp; Based on the above evaluation:</p><p>&nbsp; &nbsp; **Vector: {1,0,1}**</p>
-    
+
 </details>
 
 <details>
     <summary>Feedback to Student</summary>
 
-    Partial credit grading for this problem is based on the following aspects:
-    First, whether you indicated the use of the conservation of mechanical energy to solve the problem.
-    Second, whether your explanation included both gravitational potential energy and elastic potential energy terms.
-    Finally, whether your explanation showed that the gravitational potential energy calculation involved a modification to the height h.
-
-    You clearly showed that you used the conservation of mechanical energy by stating, "Set up a law of conservation of mechanical energy equation(ME initial = ME final)." This clearly indicates your understanding of using mechanical energy conservation to solve the problem.
-
-    You also indicated that the calculation of the gravitational potential energy involves a modification to the height h by saying, "I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed."
-
-    However, your explanation did not show that you included both gravitational potential energy and elastic potential energy terms in your solution. While you mentioned the height modification for gravitational potential energy, there was no explicit mention or mathematical representation of the elastic potential energy, such as 0.5kx^2.
-
-    If you have any questions regarding the grading, do not hesitate to reach out to your teacher.
+    <p>&nbsp; &nbsp; Partial credit grading for this problem is based on the following aspects:</p><p>&nbsp; &nbsp; First, whether you indicated the use of the conservation of mechanical energy to solve the problem.</p><p>&nbsp; &nbsp; Second, whether your explanation included both gravitational potential energy and elastic potential energy terms.</p><p>&nbsp; &nbsp; Finally, whether your explanation showed that the gravitational potential energy calculation involved a modification to the height h.</p><p><br></p><p>&nbsp; &nbsp; You clearly showed that you used the conservation of mechanical energy by stating, "Set up a law of conservation of mechanical energy equation(ME initial = ME final)." This clearly indicates your understanding of using mechanical energy conservation to solve the problem.</p><p><br></p><p>&nbsp; &nbsp; You also indicated that the calculation of the gravitational potential energy involves a modification to the height h by saying, "I can do this by adding together the height of the ball above the cylinder and the length the spring was compressed."</p><p><br></p><p>&nbsp; &nbsp; However, your explanation did not show that you included both gravitational potential energy and elastic potential energy terms in your solution. While you mentioned the height modification for gravitational potential energy, there was no explicit mention or mathematical representation of the elastic potential energy, such as 0.5kx^2.</p><p><br></p><p>&nbsp; &nbsp; If you have any questions regarding the grading, do not hesitate to reach out to your teacher.</p>
 </details>
 
 
