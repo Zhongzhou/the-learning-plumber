@@ -12,7 +12,26 @@ Long story short, I figured out how to get GPT-4o to:
 2. Generate grading justification and a grading confidence index for humans to review, and 
 3. Write feedback to students about why they received the scores that they got. 
 
-Yes, GPT can do all of those efficiently and consistently, while allowing humans to have extensive oversight on the grading process. In fact, I feel that I have more control over the AI grader than over human graders, as AI meticulously writes down why it assigns each point. I can't remember when was the last time I asked my human grader to justify their own grading, and most of the time they had already forgotten everything when they are done with the last paper.
+Here's one example of what GPT grading looks like.
+
+<details>
+    <summary>Problem body</summary>
+</details>
+
+<details>
+    <summary>Student Response</summary>
+</details>
+
+<details>
+    <summary>AI grading</summary>
+</details>
+
+<details>
+    <summary>Feedback to Student</summary>
+</details>
+
+
+Yes, GPT can do all of those at once, while allowing humans to have extensive oversight on the grading process. In fact, I feel that I have more control over the AI grader than over human graders, as AI meticulously writes down why it assigns each point. I can't remember when was the last time I asked my human grader to justify their own grading, and most of the time they had already forgotten everything when they are done with the last paper.
 
 I'm hoping to write a series of posts explaining the paper in a more reader friendly way (junk food summaries), including how the research actually unfolded (sometimes quite dramatically), explaining the technique that I used for new comers to GenAI, and sharing some (hopefully) interesting thoughts and opinions that didn't get into the paper.
 
@@ -44,7 +63,7 @@ As you can see, any instructor with a little bit of python experience and a GPT 
 
 ## Should our next grader be an AI?
 
-Yes. I think so, and it is mostly not because that it is cheap. 
+Yes. I think so, and it is mostly not because it is cheap, but because it provides near complete transparency in during the grading process.
 
 Yes, AI graders can still make all kinds of grading mistakes, it can be biased against certain types of language for forms of answering, it can overlook very creative and non-conventional answers, it will still make spontaneous mistakes despite our best effort due to the nature of generative AI. Yet a human grader could make ALL of those mistakes too, and in the vast majority of cases we have very little idea how frequently those grading errors are  happen on a daily basis. I mean, how can you ask any grader to write down their justification for every point assigned to every student, when you've just assigned to grade 100 student responses?
 
@@ -58,13 +77,19 @@ It maybe true that if you put in the same amount of work training a human grader
 
 Yes and No, and it is quite a weak Yes versus a very strong **No**. 
 
-The only situation I can think of where human graders will become obsolete is that if we stop innovating in teaching and learning, and teach/test exactly the same way as we do today. In that case, yes. Because of all the reasons above, there is no way a human grader can compete with a fully developed AI grader. That type of replacement is already happening in workplaces all over the place. 
+* The unlikely "yes": if we stop innovating in teaching and learning, and teach/test exactly the same way as we do today.  Because of all the reasons above, I see no reason why we need human graders to grade student response to the same problems year after year, with no control nor improvement in grading quality and feedback experience. 
 
-Yet I see no reason why we should, or will stop all innovation in teaching and learning, especially since AI will new free us from mostly repetitive task of grading.
+* The much more likely "no": 
+  * At the very least, we can greatly increase the number of written response questions in the course, as they are so much better for learning than multiple-choice questions. Instead of assigning humans as graders, future teaching assistants will be tasked with creating and evaluating new problems, designing grading rubrics, writing rubric explanations, check for AI grading errors, and improve the prompt design. As I argue in the paper, all of which are essential for the grading process to work and must be done by a human expert, at least in the short term. 
 
-At the very least, we can greatly increase the number of written response questions in the course, as they are so much better for learning than multiple-choice questions. Instead of assigning humans as graders, future teaching assistants will be tasked with creating and evaluating new problems, designing grading rubrics, writing rubric explanations, check for AI grading errors, and improve the prompt design. All of which are essential for the process and must be done by a human expert, at least in the short term. 
+  * More importantly, now more than ever is the time to innovate and rethink the basic building blocks of the entire process of teaching and learning. 
+    * What new types of questions or tasks shall we challenge our students? (especially since AI can already solve most conventional tasks) 
+    * How can we collect evidences from students' work, and make meaningful evaluation of their knowledge and ability? 
+    * How can we enable and empower each individual student to develop according to their own pace? 
+    * How do we teach and assess creativity and critical thinking?
+    * How can we help students feel motivated and welcomed to learn, and develop their ability regulate their own learning?
 
-More importantly, now more than ever is the time to innovate and rethink the basic building blocks of the entire process of teaching and learning. What new types of questions or tasks shall we give our students? How can we collect evidences from students' work, and make meaningful evaluation of their knowledge and ability? How can we enable and empower each individual student to develop in their own pace? How do we teach and assess creativity and critical thinking?
+  The current generation of GenAI is great at completing tasks that have well established patterns or procedures, such as grading answers to common physics problems. Yet for things that have never been done before, humans need to first experiment, evaluate and establish acceptable and beneficial practices, before AI can replicate the process in a satisfactory and meaningful way. **In other words, AI can help us achieve what we want, but it can never tell us what we want.** The task for human teachers or teaching assistance in the future will be to observe what students need, innovate on how to facilitate and empower students, implement the new methods and strategies (hopefully with the help of AI), and most importantly, examine and evaluate if the new process is actually helping students. After all, AI may replace our brain, but I don't see how it can replace our heart.
 
 
 
