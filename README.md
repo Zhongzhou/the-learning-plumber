@@ -20,6 +20,8 @@ _Create a site or blog from your GitHub repositories with GitHub Pages._
 
 ## Finish
 
+test if I can modify this page.
+
 _Congratulations friend, you've completed this course!_
 
 <img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
