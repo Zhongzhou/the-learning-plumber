@@ -6,7 +6,8 @@ date: 2025-01-16
 <img src="../../../assets/images/AI_grader.webp" width="500" style = "float: center; margin-right: 2em"
 alt = "A busy AI grader working to grade lots of student papers.">
 
-*Might your next grader be an AI? (image created by chatGPT)*
+*Might your next grader be an AI? (image created by chatGPT)* Most likely! And I think it can be a really good thing.
+
 ## Getting GPT to grade student responses and much more
 This paper: [https://arxiv.org/abs/2412.06910]() on using GPT to assign partial credit to students' written response to common physics problems has been keeping me really busy for the past couple of months (in addition to an incredible trip back to China). 
 
