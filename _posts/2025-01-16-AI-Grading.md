@@ -122,5 +122,13 @@ Yes and No, and it is quite a weak Yes versus a very strong **No**.
 
 
 
-
+---
+<script src="https://utteranc.es/client.js"
+        repo="Zhongzhou/the-learning-plumber"
+        issue-term="pathname"
+        theme="boxy-light"
+        crossorigin="anonymous"
+        label = "blog-comment"
+        async>
+</script>
 
